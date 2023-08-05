@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Carousel1, { Carousel2 } from "./carousel/Carousel1";
-import Carousel1Text from "./carousel/Carousel1Text";
 
 function Promotion1() {
   const slides = [
@@ -13,13 +12,13 @@ function Promotion1() {
     // "https://i.ibb.co/XXR8kzF/3.png",
     // "https://i.ibb.co/yg7BSdM/4.png",
   ];
-  const words = [
-    { value: "Apple" },
-    { value: "Mango" },
-    { value: "Banana" },
-    { value: "Banana1" },
-    { value: "Banana2" },
-  ];
+  // const words = [
+  //   { value: "Apple" },
+  //   { value: "Mango" },
+  //   { value: "Banana" },
+  //   { value: "Banana1" },
+  //   { value: "Banana2" },
+  // ];
 
   return (
     <div>
@@ -35,13 +34,13 @@ function Promotion1() {
               <img key={s} src={s} alt="" sizes="100vw" />
             ))}
           </Carousel1>
-          <Carousel2>
+          {/* <Carousel2>
             {words.map((s) => (
               <div>
                 <h1></h1>
               </div>
             ))}
-          </Carousel2>
+          </Carousel2> */}
         </div>
 
         <div className="mx-auto mb-10 text-center text-purple py-2 px-3 border-solid border-purple rounded-full  border-4 w-fit">
