@@ -1,4 +1,23 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    // images: {
+    //     domains: ['www.imgbb.com'],
+    // },
+    // images: {
+    //     remotePatterns: [
+    //       {
+    //         protocol: 'https',
+    //         hostname: 'i.ibb.co',
+    //         port: '',
+    //         pathname: 'www.imgbb.com',
+    //       },
+    //     ],
+    //   },
 
-module.exports = nextConfig
+}
+
+module.exports = {
+    images: {
+        domains: ['i.ibb.co','d1csarkz8obe9u.cloudfront.net'],
+    },
+}
