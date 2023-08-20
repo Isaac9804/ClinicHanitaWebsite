@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import Image from "next/image";
-import Carousel1 from "./carousel/Carousel1";
-import { Carousel2 } from "./carousel/Carousel2";
+
 import { Carousel3 } from "./carousel/Carousel3";
 
 function Promotion1() {
-
   return (
     <div>
       <div>
