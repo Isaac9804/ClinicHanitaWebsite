@@ -1,29 +1,42 @@
 "use client";
-import Image from "next/image";
+import { useState } from "react";
 import React from "react";
-import { useState, useEffect } from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-import { text } from "stream/consumers";
 
-export default function Carousel1({ children: slides }: any) {
+export const Carousel2 = ({ slide1 }: any) => {
   const [curr, setCurr] = useState(0);
 
   const prev = () => {
-    setCurr((curr) => (curr === 0 ? slides.length - 1 : curr - 1));
+    setCurr((curr) => (curr === 0 ? slide1 - 1 : curr - 1));
   };
   const next = () => {
-    setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1));
+    setCurr((curr) => (curr === slide1 - 1 ? 0 : curr + 1));
   };
-
   return (
     <div>
-      <div className="overflow-hidden relative">
-        <div
-          className="flex transition-transform ease-out duration-500"
+      {/* <div className="overflow-hidden relative"> */}
+      <div className=" relative">
+        
+        {/* <div
+          className="transition-transform ease-out duration-500"
           style={{ transform: `translateX(-${curr * 100}%)` }}
         >
-          {slides}
+          <img src={slide1.img} alt="" />
+          <div className="text-center mx-auto py-5">{slide1.info}</div>
+        </div> */}
+
+        <div
+          className="transition-transform ease-out duration-500"
+          style={{ transform: `translateX(-${curr * 100}%)` }}
+        >
+          {slide1.map((img:any,info:any) => (
+            <div key={info}>
+              <img src={slide1.img} alt="" />
+              <div className="text-center mx-auto py-5">{slide1.info}</div>
+            </div>
+          ))}
         </div>
+
         <div className="absolute inset-0 flex items-center justify-between p-4 r">
           <div
             onClick={prev}
@@ -42,21 +55,7 @@ export default function Carousel1({ children: slides }: any) {
             </button>
           </div>
         </div>
-
-        <div className="absolute bottom-4 right-0 left-0">
-          <div className="flex items-center justify-center gap-2">
-            {slides.map((_: any, i: number) => (
-              <div
-                key={i}
-                className={`
-              transition-all w-1 h-1 bg-white rounded-full
-              ${curr === i ? "p-1" : "bg-opacity-50"}
-            `}
-              />
-            ))}
-          </div>
-        </div>
       </div>
     </div>
   );
-}
+};
