@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CarouselPanels() {
+function SearchPanels() {
   return (
 
     <div>
@@ -9,4 +9,4 @@ function CarouselPanels() {
   )
 }
 
-export default CarouselPanels
+export default SearchPanels

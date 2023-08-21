@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
+import { AiOutlineWhatsApp } from "react-icons/ai";
+import { BsArrowUpRightCircle } from "react-icons/bs";
 
 const whatsappNumber = "60192484931";
 
@@ -25,6 +27,15 @@ const slides1 = [
   {
     id: 3,
     img: "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/medical-care-banner-instagram-post-design-template-74b49e8f24ed8bb4f8fe0945f5b13ab9_screen.jpg?ts=1601912788",
+    info: "This doctor can help you cure your desire of eating cake.",
+    whatsapp:
+      "https://wa.me/" +
+      whatsappNumber +
+      "?text=Hi I need help with my cake eating disorder Thanks",
+  },
+  {
+    id: 4,
+    img: "https://document-export.canva.com/BZGcM/DAFsMwBZGcM/5/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230821%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230821T034702Z&X-Amz-Expires=65329&X-Amz-Signature=1c3adc52ca621b81ff8822ecdab341557d2c82114b42559d640036b6fcb196b2&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2021%20Aug%202023%2021%3A55%3A51%20GMT",
     info: "This doctor can help you cure your desire of eating cake.",
     whatsapp:
       "https://wa.me/" +
@@ -74,24 +85,37 @@ export const Carousel3 = () => {
         </div>
         <div className="absolute bottom-4 right-0 left-0">
           <div className="flex items-center justify-center gap-2">
-            {slides1.map((_: any, i: number) => (
+            {slides1.map((_: any, id: number) => (
               <div
-                key={i}
+                key={id}
                 className={`
               transition-all w-1 h-1 bg-white rounded-full
-              ${curr === i ? "p-1" : "bg-opacity-50"}
+              ${curr === id ? "p-1" : "bg-opacity-50"}
             `}
               />
             ))}
           </div>
         </div>
       </div>
-      <div className=" text-center mx-10 my-5 text-sm">{slides1[curr].info}</div>
-      <a href={slides1[curr].whatsapp}>
-        <div className=" mx-auto mb-10 text-center text-purple py-2 px-5 border-solid border-purple rounded-full  border-4 w-fit mt-10">
-          <h1 className="font-extrabold text-sm ">BOOK NOW</h1>
-        </div>
-      </a>
+      <div className=" text-center px-10 py-5 text-sm">
+        {slides1[curr].info}
+      </div>
+      <div className="flex justify-center ">
+        <a href={slides1[curr].whatsapp} className="flex-auto">
+          <div className="py-5 bg-purple text-white flex justify-center gap-1.5">
+            <AiOutlineWhatsApp className="text-xl" />
+            <h1 className=" font-extrabold text-sm text-center ">BOOK NOW</h1>
+          </div>
+        </a>
+        <a href="#" className="flex-auto  ">
+          <div className="py-5 bg-red-600 text-white flex justify-center gap-1.5">
+            <BsArrowUpRightCircle className="text-xl" />
+            <h1 className=" font-extrabold text-sm text-center ">
+              MORE PROMOTION
+            </h1>
+          </div>
+        </a>
+      </div>
     </div>
   );
 };

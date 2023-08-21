@@ -6,7 +6,7 @@ function Promotion1() {
   return (
     <div>
       <div>
-        <div className="py-5">
+        <div className="py-5 mt-5">
           <h1 className="text-center text-purple font-black tracking-wider text-xl">
             PROMOTION
           </h1>
