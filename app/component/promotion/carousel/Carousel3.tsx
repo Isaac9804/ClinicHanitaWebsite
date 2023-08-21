@@ -86,10 +86,10 @@ export const Carousel3 = () => {
           </div>
         </div>
       </div>
-      <div className=" text-center mx-10 my-5">{slides1[curr].info}</div>
+      <div className=" text-center mx-10 my-5 text-sm">{slides1[curr].info}</div>
       <a href={slides1[curr].whatsapp}>
-        <div className="mx-auto mb-10 text-center text-purple py-2 px-3 border-solid border-purple rounded-full  border-4 w-fit mt-10">
-          <h1 className="font-extrabold">BOOK NOW</h1>
+        <div className=" mx-auto mb-10 text-center text-purple py-2 px-5 border-solid border-purple rounded-full  border-4 w-fit mt-10">
+          <h1 className="font-extrabold text-sm ">BOOK NOW</h1>
         </div>
       </a>
     </div>
