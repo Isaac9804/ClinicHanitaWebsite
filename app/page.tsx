@@ -61,7 +61,7 @@ export default function Home() {
               <div className="pt-5 px-16 text-white ">
                 <CgMail className="text-2xl mx-auto" />
                 <h1 className="text-xs mx-auto text-center py-2 ">
-                klinikhanita@gmail.com
+                  klinikhanita@gmail
                 </h1>
               </div>
             </div>
