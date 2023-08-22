@@ -51,7 +51,24 @@ export default function Home() {
 
                 <BsFacebook />
               </div>
-              <div className="pt-5 px-16 text-white ">
+              <div className="px-10 text-white">
+                <h1 className="text-xs mx-auto text-center py-3 ">
+                  NO. 21, JALAN PINGGIRAN PUTRA 4A/14, DESA PINGGIRAN PUTRA,
+                  43000 KAJANG,
+                </h1>
+                <h1 className="text-xs mx-auto text-center  ">
+                  Email: <a href="">klinikhanita@gmail.com</a>
+                </h1>
+                <div className="flex py-2 text-xs gap-2 justify-center">
+                  <h1 className=" ">
+                    Tel: <a href="">03-89271005</a>
+                  </h1>
+                  <h1 className=" ">
+                    Ws: <a href="">013-2401055</a>
+                  </h1>
+                </div>
+              </div>
+              {/* <div className="pt-5 px-16 text-white ">
                 <FaLocationDot className="text-2xl mx-auto" />
                 <h1 className="text-xxs mx-auto text-center pt-3 ">
                   NO. 21, JALAN PINGGIRAN PUTRA 4A/14, DESA PINGGIRAN PUTRA,
@@ -63,12 +80,11 @@ export default function Home() {
                 <h1 className="text-xs mx-auto text-center py-2 ">
                   klinikhanita@gmail.com
                 </h1>
-              </div>
+              </div> */}
             </div>
 
-            <p className="text-xxxs text-center text-purple1 px-10 py-3">
-              Disclaimer: Legal information is not legal advice, read the
-              disclaimer. The information provided on this site is not legal
+            <p className="text-xxxs text-center text-purple1 px-10 py-5">
+              Disclaimer: The information provided on this site is not legal
               advice, does not constitute a lawyer referral service, and no
               attorney-client or confidential relationship is or will be formed
               by use of the site.
