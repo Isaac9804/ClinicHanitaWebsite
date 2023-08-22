@@ -33,15 +33,6 @@ const slides1 = [
       whatsappNumber +
       "?text=Hi I need help with my cake eating disorder Thanks",
   },
-  {
-    id: 4,
-    img: "https://document-export.canva.com/BZGcM/DAFsMwBZGcM/5/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230821%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230821T034702Z&X-Amz-Expires=65329&X-Amz-Signature=1c3adc52ca621b81ff8822ecdab341557d2c82114b42559d640036b6fcb196b2&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2021%20Aug%202023%2021%3A55%3A51%20GMT",
-    info: "This doctor can help you cure your desire of eating cake.",
-    whatsapp:
-      "https://wa.me/" +
-      whatsappNumber +
-      "?text=Hi I need help with my cake eating disorder Thanks",
-  },
 ];
 
 // const slideElement = slides1.entries().next().value;
