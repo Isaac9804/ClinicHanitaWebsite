@@ -4,7 +4,6 @@ import gpanel from "/public/panels_img/Group14.png";
 import SearchPanels from "./Carousel/SearchPanels";
 
 import { BsArrowUpRightCircle } from "react-icons/bs";
-import PanelLogo from "./panelLogo/panelLogo";
 
 function Panels1() {
   return (
