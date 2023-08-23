@@ -8,7 +8,6 @@ import Panels1 from "./component/panel/Panels1";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 
-
 export default function Home() {
   return (
     <main>
@@ -30,7 +29,7 @@ export default function Home() {
 
       {/* ----------------------Promotion Section--------------------------------------- */}
 
-      <Promotion1/>
+      <Promotion1 />
 
       {/* ----------------------Panels Section--------------------------------------- */}
 
@@ -40,29 +39,29 @@ export default function Home() {
 
       <footer>
         <div className="bg-purple">
-          <div>
+          <div className="max-w-[1920px]">
             <div>
-              <h1 className="text-center pt-10 text-sm text-white">
+              <h1 className="text-center py-10 text-sm text-white lg:text-2xl lg:pt-20">
                 FOLLOW US
               </h1>
-              <div className="list-none flex justify-center gap-5 px-10 py-5 text-3xl text-white">
+              <div className="list-none flex justify-center gap-5 px-10 pb-10 text-3xl text-white lg:text-6xl">
                 <BsInstagram />
 
                 <BsFacebook />
               </div>
-              <div className="px-10 text-white">
-                <h1 className="text-xs mx-auto text-center py-3 ">
+              <div className="px-10 text-white ">
+                <h1 className="text-xs mx-auto text-center py-3 lg:text-2xl">
                   NO. 21, JALAN PINGGIRAN PUTRA 4A/14, DESA PINGGIRAN PUTRA,
                   43000 KAJANG,
                 </h1>
-                <h1 className="text-xs mx-auto text-center  ">
+                <h1 className="text-xs mx-auto text-center lg:text-2xl ">
                   Email: <a href="">klinikhanita@gmail.com</a>
                 </h1>
-                <div className="flex py-2 text-xs gap-2 justify-center">
-                  <h1 className=" ">
+                <div className="flex py-2 text-xs gap-2 justify-center lg:gap-5">
+                  <h1 className=" lg:text-2xl">
                     Tel: <a href="">03-89271005</a>
                   </h1>
-                  <h1 className=" ">
+                  <h1 className="lg:text-2xl ">
                     Ws: <a href="">013-2401055</a>
                   </h1>
                 </div>
@@ -82,11 +81,10 @@ export default function Home() {
               </div> */}
             </div>
 
-            <p className="text-xxxs text-center text-purple1 px-10 py-5">
-              Disclaimer: The information provided on this site is not legal
-              advice, does not constitute a lawyer referral service, and no
-              attorney-client or confidential relationship is or will be formed
-              by use of the site.
+            <p className="text-xxxs text-center text-purple1 px-10 py-10 lg:text-xl">
+              Suspendisse potenti. Vivamus sed est vel ex accumsan cursus.
+              Phasellus efficitur metus non felis pharetra, sed ornare nunc
+              rhoncus.
             </p>
           </div>
         </div>

@@ -81,8 +81,8 @@ export const Carousel3 = () => {
                 <div
                   key={id}
                   className={`
-              transition-all w-1 h-1 bg-white rounded-full
-              ${curr === id ? "p-1" : "bg-opacity-50"}
+              transition-all w-1 h-1 lg:w-3 lg:h-3 bg-white rounded-full
+              ${curr === id ? "p-1 lg:p-2" : "bg-opacity-50"}
             `}
                 />
               ))}
