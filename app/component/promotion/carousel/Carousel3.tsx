@@ -48,7 +48,7 @@ export const Carousel3 = () => {
   };
 
   return (
-    <div className="  lg:flex lg:flex-grow lg:gap-5 lg:px-32 lg:py-32 max-w-[1920px] ">
+    <div className="  lg:flex lg:flex-grow lg:gap-5 lg:px-32 lg:py-32 max-w-[1920px] mx-auto ">
       <div>
         <div className="overflow-hidden relative mx-auto max-w-2xl  lg:rounded-3xl lg:drop-shadow-xl">
           <div
