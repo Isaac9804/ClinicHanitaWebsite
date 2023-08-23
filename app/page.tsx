@@ -7,8 +7,7 @@ import Promotion1 from "./component/promotion/Promotion1";
 import Panels1 from "./component/panel/Panels1";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
-import { CgMail } from "react-icons/cg";
-import { FaLocationDot } from "react-icons/fa6";
+
 
 export default function Home() {
   return (
@@ -31,7 +30,7 @@ export default function Home() {
 
       {/* ----------------------Promotion Section--------------------------------------- */}
 
-      <Promotion1 />
+      <Promotion1/>
 
       {/* ----------------------Panels Section--------------------------------------- */}
 
