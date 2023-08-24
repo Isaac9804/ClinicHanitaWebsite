@@ -7,7 +7,7 @@ function Promotion1() {
     <div>
       <div >
         <div className="py-5 mt-5 ">
-          <h1 className="text-center text-purple font-black tracking-wider text-xl lg:hidden">
+          <h1 className="text-center text-purple font-black tracking-wider text-3xl lg:hidden">
             PROMOTION
           </h1>
         </div>
