@@ -6,9 +6,7 @@ function Services() {
     <div>
       <div>
         <div className="hidden lg:block text-center text-2xl max-w-[1920px] ">
-          <div>
-            <MdMedicalServices className=" text-purple lg:text-6xl mx-auto " />
-          </div>
+          <MdMedicalServices className=" text-purple lg:text-6xl mx-auto " />
 
           <h1 className="text-purple  font-black tracking-widest pt-10 lg:text-6xl lg:py-10">
             SERVICES
