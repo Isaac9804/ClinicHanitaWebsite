@@ -8,13 +8,13 @@ import { BsArrowUpRightCircle } from "react-icons/bs";
 
 function Panels1() {
   return (
-    <div className="my-10 text-center mx-auto max-w-[1920px] lg:my-40">
-      <MdAdminPanelSettings className="hidden text-purple lg:text-6xl mx-auto lg:block " />
-      <h1 className="text-purple text-3xl font-black tracking-widest pt-10 lg:text-6xl lg:py-10">
+    <div className=" text-center mx-auto max-w-[1920px] p-5 lg:p-10  xl:p-20 2xl:p-32 ">
+      <MdAdminPanelSettings className="hidden text-purple lg:text-4xl xl:text-6xl mx-auto lg:block " />
+      <h1 className="text-purple text-3xl py-10 font-black tracking-widest lg:text-4xl lg:py-5 xl:text-6xl xl:py-10">
         PANELS
       </h1>
 
-      <p className="text-xs px-10  mx-auto leading-loose lg:text-2xl lg:max-w-4xl ">
+      <p className="text-base px-10  mx-auto leading-loose lg:text-lg lg:max-w-4xl xl:text-2xl ">
         Experience the convenience of over 20 locally supported panels with
         quick and seamless registration. Explore additional panels for more
         options and possibilities.
@@ -26,7 +26,7 @@ function Panels1() {
       </div>
       <div>
         <a href="#">
-          <div className="flex justify-center gap-2 py-3 px-10  rounded-full my-10 items-center bg-fuchsia-200 text-purple w-fit mx-auto lg:my-20 lg:py-5 ">
+          <div className="flex justify-center gap-2 py-3 px-10  rounded-full my-10 items-center bg-blue-600 text-white w-fit mx-auto lg:my-20 lg:py-5 ">
             <h1 className="text-xs lg:text-2xl">MORE PANELS ....</h1>
             <BsArrowUpRightCircle className="text-sm lg:text-2xl" />
           </div>
