@@ -10,12 +10,12 @@ export default function Navbar1() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-full bg-purple shadow">
+      <nav className="w-full bg-purple shadow xl:px-10 xl:pt-5">
         <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex md:px-8">
           <div>
-            <div className=" flex items-center justify-between py-3 md:py-5 md:block">
+            <div className=" flex items-center justify-between py-3 md:py-5 md:block ">
               <a href="#">
-                <Image src={Logo} alt="" className="w-[76px]" />
+                <Image src={Logo} alt="" className="w-[76px] md:w-24 lg:w-52" />
                 {/* <h2 className="text-2xl text-white font-bold">NEXT JS</h2> */}
               </a>
               <div className="md:hidden">
@@ -59,8 +59,8 @@ export default function Navbar1() {
                 navbar ? "block" : "hidden"
               }`}
             >
-              <ul className="items-center justify-center space-y-4 md:flex md:space-x-6 md:space-y-0 text-sm">
-                <li className="text-white  hover:text-yellow-300">
+              <ul className="items-center justify-center space-y-4 md:flex md:space-x-6 md:space-y-0 text-sm lg:text-base xl:text-xl xl:space-x-10 ">
+                <li className="text-white  hover:text-yellow-300 ">
                   <Link legacyBehavior href="#">
                     <a>Home</a>
                   </Link>

@@ -7,14 +7,14 @@ function Hero1Float1() {
   return (
     <div className="flex items-center pt-2 px-5 sm:px-10 sm:pt-5">
       <div className="flex  flex-grow ">
-        <div className="text-purple">
+        <div>
           <div className="flex items-center gap-1.5">
             <div>
               <AiOutlineClockCircle size="1rem" />
             </div>
             <h2 className="font-bold text-[14px] sm:text-lg">BUSINESS HOURS</h2>
           </div>
-          <div className="flex divide-x-2 divide-purple ">
+          <div className="flex divide-x-2 ">
             <div className="pl-2"></div>
             <ul className="text-[10px] pl-3 tracking-wider font-semibold sm:text-base">
               <li>MONDAY - FRIDAY (9AM - 10PM)</li>
@@ -26,24 +26,7 @@ function Hero1Float1() {
         </div>
       </div>
       <div className=" m-5 ">
-        {/* <div className="bg-[#FFF4FF] w-[74px] h-[74px] md:w-[120px] md:h-[120px] drop-shadow-md rounded-xl align-middle ">
-          <a
-            href="https://goo.gl/maps/mDVe4NvBDKJu8FRE6"
-            className="items-center"
-          >
-            <div className="p-2 ">
-              <IoLocationSharp
-                className="mx-auto mb-2 fill-purple"
-                size="24px"
-                style={{ stroke: "url(#blue-gradient)" }}
-              />
-              <div className=" leading-tight  text-[9px] font-black text-center text-purple sm:text-lg">
-                CLINIC LOCATION
-              </div>
-            </div>
-          </a>
-        </div> */}
-        <div className="bg-purple rounded-xl  w-[84px] h-[84px] text-[9px] mx-auto shadow-lg animate-pulse sm:w-[120px] sm:h-[120px]">
+        <div className="bg-purple rounded-xl  w-[84px] h-[84px] text-[9px] mx-auto shadow-lg animate-pulse sm:w-[120px] sm:h-[120px] lg:hidden">
           <a
             href="https://goo.gl/maps/mDVe4NvBDKJu8FRE6"
             className="flex justify-center items-center h-full "
