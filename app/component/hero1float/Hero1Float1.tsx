@@ -43,7 +43,7 @@ function Hero1Float1() {
             </div>
           </a>
         </div> */}
-        <div className="bg-purple rounded-xl  w-[94px] h-[94px] text-[9px] mx-auto shadow-lg animate-pulse sm:w-[120px] sm:h-[120px]">
+        <div className="bg-purple rounded-xl  w-[84px] h-[84px] text-[9px] mx-auto shadow-lg animate-pulse sm:w-[120px] sm:h-[120px]">
           <a
             href="https://goo.gl/maps/mDVe4NvBDKJu8FRE6"
             className="flex justify-center items-center h-full "
