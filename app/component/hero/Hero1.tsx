@@ -10,7 +10,7 @@ function Hero1() {
   return (
     <div className="">
       <div className="relative">
-        <div className=" pb-[121px] sm:pb-0  bg-gradient-to-b from-purple to-purple1  ">
+        <div className=" pb-[121px] sm:pb-[180px] md:pb-0  bg-gradient-to-b from-purple to-purple1  ">
           <div className="flex max-w-[1920px] mx-auto">
             {/* <div className=" max-w-[176px] max-h-[224px] "> */}
             <div className="  ">
@@ -62,7 +62,7 @@ function Hero1() {
         </div>
 
         {/* Working hours section */}
-        <div className="sm:hidden absolute z-1 bottom-0  bg-white w-full rounded-t-2xl">
+        <div className="md:hidden absolute z-1 bottom-0  bg-white w-full rounded-t-2xl ">
           <Hero1Float1 />
         </div>
       </div>

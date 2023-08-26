@@ -49,7 +49,7 @@ export default function Home() {
       {/* ----------------------Footer Section--------------------------------------- */}
 
       <footer>
-        <div className="bg-purple mt-20 md:mt-0 ">
+        <div className="bg-purple mt-5 md:mt-0 ">
           <div className="max-w-[1920px] mx-auto">
             <div>
               <h1 className="text-center pt-10 text-sm text-white lg:text-2xl lg:pt-20">

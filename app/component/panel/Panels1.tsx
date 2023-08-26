@@ -14,7 +14,7 @@ function Panels1() {
         PANELS
       </h1>
 
-      <p className="text-base px-10  mx-auto leading-loose lg:text-lg lg:max-w-4xl xl:text-2xl ">
+      <p className="text-base px-10  mx-auto  lg:text-lg lg:max-w-4xl xl:text-2xl ">
         Experience the convenience of over 20 locally supported panels with
         quick and seamless registration. Explore additional panels for more
         options and possibilities.
@@ -26,7 +26,7 @@ function Panels1() {
       </div>
       <div>
         <a href="#">
-          <div className="flex justify-center gap-2 py-3 px-10  rounded-full my-10 items-center bg-blue-600 text-white w-fit mx-auto lg:my-20 lg:py-5 ">
+          <div className="flex justify-center gap-2 py-3 px-10  rounded-full my-20 items-center bg-blue-600 text-white w-fit mx-auto lg:my-20 lg:py-5 ">
             <h1 className="text-xs lg:text-2xl">MORE PANELS ....</h1>
             <BsArrowUpRightCircle className="text-sm lg:text-2xl" />
           </div>
