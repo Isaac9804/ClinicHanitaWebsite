@@ -29,20 +29,20 @@ function AboutPage() {
 
       <div className="max-w-[1920px] mx-auto w-10/12">
         {/* ----------------------Vision and Mission Section--------------------------------------- */}
-        <div className="mx-auto text-center py-32 w-3/5">
+        <div className="mx-auto text-center py-20 lg:py-32 w-4/5 lg:w-3/5">
           <div>
-            <h1 className="font-black text-6xl pb-10">VISION</h1>
+            <h1 className="font-black text-3xl lg:text-6xl pb-10">VISION</h1>
 
-            <p className="text-2xl">
+            <p className="text-lg lg:text-2xl">
               "To be a trusted leader in comprehensive healthcare, dedicated to
               empowering individuals and promoting holistic well-being within
               our community."
             </p>
           </div>
           <div className="py-16">
-            <h1 className="font-black text-6xl pb-10">MISSION</h1>
+            <h1 className="font-black text-3xl lg:text-6xl pb-10">MISSION</h1>
 
-            <p className="text-2xl">
+            <p className="text-lg lg:text-2xl">
               "To provide exceptional, patient-centred healthcare services with
               a focus on quality, compassion, and innovation, while promoting
               wellness, preventive care, and community engagement."
