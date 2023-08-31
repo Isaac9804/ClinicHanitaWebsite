@@ -1,6 +1,7 @@
 import React from "react";
 import { MdMedicalServices } from "react-icons/md";
 import ServicesMap from "./servicesMap/ServicesMap";
+import { BsArrowUpRightCircle } from "react-icons/bs";
 
 function Services() {
   return (
@@ -20,6 +21,14 @@ function Services() {
         </div>
       </div>
       <ServicesMap />
+      <div>
+        <a href="#">
+          <div className="transform transition duration-500 hover:scale-110 hover:shadow-xl flex justify-center gap-2 py-3 px-10  rounded-full my-20 items-center bg-blue-600 text-white w-fit mx-auto lg:my-20 lg:py-5 ">
+            <h1 className="text-xs lg:text-2xl">MORE SERVICES ....</h1>
+            <BsArrowUpRightCircle className="text-sm lg:text-2xl" />
+          </div>
+        </a>
+      </div>
     </div>
   );
 }

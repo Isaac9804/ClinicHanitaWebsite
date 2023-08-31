@@ -18,6 +18,6 @@ const nextConfig = {
 
 module.exports = {
     images: {
-        domains: ['i.ibb.co','d1csarkz8obe9u.cloudfront.net'],
+        domains: ['d1csarkz8obe9u.cloudfront.net','i.ibb.co','images.unsplash.com','mail.google.com','drive.google.com'],
     },
 }

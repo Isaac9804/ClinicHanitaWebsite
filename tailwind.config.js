@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         'purple': '#91288D',
         'purple1': '#CD9FCC',
+        'beige': '#e8ded1',
       },
       
       fontSize:{

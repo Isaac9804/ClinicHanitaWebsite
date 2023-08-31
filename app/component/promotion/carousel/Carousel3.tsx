@@ -101,7 +101,7 @@ export const Carousel3 = () => {
         </div>
         <div className="flex justify-center  ">
           <a href={slides1[curr].whatsapp} className="flex-auto  ">
-            <div className="py-5 bg-purple text-white flex justify-center items-center gap-1.5 lg:mx-auto lg:w-fit lg:rounded-full lg:px-4 lg:py-3 lg:gap-2 xl:px-10 xl:gap-4">
+            <div className="transform transition duration-500 hover:scale-110 hover:shadow-xl py-5 bg-purple text-white flex justify-center items-center gap-1.5 lg:mx-auto lg:w-fit lg:rounded-full lg:px-4 lg:py-3 lg:gap-2 xl:px-10 xl:gap-4">
               <AiOutlineWhatsApp className="text-xl lg:text-xl xl:text-3xl 2xl:text-4xl" />
               <h1 className=" font-extrabold text-sm text-center xl:text-xl 2xl:text-2xl ">
                 BOOK NOW
@@ -109,7 +109,7 @@ export const Carousel3 = () => {
             </div>
           </a>
           <a href="#" className="flex-auto ">
-            <div className="py-5 bg-red-600 text-white flex justify-center gap-1.5 lg:mx-auto lg:w-fit lg:rounded-full lg:px-4 lg:py-3 lg:gap-2 xl:px-10 xl:gap-4">
+            <div className="transform transition duration-500 hover:scale-110 hover:shadow-xl py-5 bg-red-600 text-white flex justify-center items-center gap-1.5 lg:mx-auto lg:w-fit lg:rounded-full lg:px-4 lg:py-3 lg:gap-2 xl:px-10 xl:gap-4">
               <BsArrowUpRightCircle className="text-xl lg:text-xl xl:text-3xl 2xl:text-4xl" />
               <h1 className=" font-extrabold text-sm text-center xl:text-xl 2xl:text-2xl ">
                 MORE PROMOTION

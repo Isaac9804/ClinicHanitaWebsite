@@ -34,7 +34,6 @@ function ServicesMap() {
 
   return (
     <div>
-      {" "}
       <div className="  w-fit max-w-[1920px] mx-auto my-20 ">
         <div className="grid grid-cols-2 md:grid-cols-2 gap-20 ">
           <div className="grid gap-20 ">
@@ -76,7 +75,7 @@ function ServicesMap() {
             </div>
             <div className="max-w-xl bg-white  rounded-lg shadow-xl">
               <a href={services1[1].location}>
-                <img className="rounded-t-lg" src={services1[1].img} alt="" />
+                <img className="rounded-t-lg " src={services1[1].img} alt="" />
               </a>
               <div className="p-5">
                 <a href="#">

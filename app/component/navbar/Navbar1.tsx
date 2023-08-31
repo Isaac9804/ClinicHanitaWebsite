@@ -61,32 +61,32 @@ export default function Navbar1() {
             >
               <ul className="items-center justify-center space-y-4 md:flex md:space-x-6 md:space-y-0 text-sm lg:text-base xl:text-xl xl:space-x-10 ">
                 <li className="text-white  hover:text-yellow-300 ">
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href="/">
                     <a>Home</a>
                   </Link>
                 </li>
                 <li className="text-white  hover:text-yellow-300">
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href="/component/navbar/aboutPage">
                     <a>About</a>
                   </Link>
                 </li>
                 <li className="text-white  hover:text-yellow-300">
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href="/component/navbar/servicePage">
                     <a>Services</a>
                   </Link>
                 </li>
                 <li className="text-white  hover:text-yellow-300">
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href="/component/navbar/panelsPage">
                     <a>Panels</a>
                   </Link>
                 </li>
                 <li className="text-white  hover:text-yellow-300">
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href="/component/navbar/promotionPage">
                     <a>Promotion</a>
                   </Link>
                 </li>
                 <li className="text-white  hover:text-yellow-300">
-                  <Link legacyBehavior href="/component/navbar/career">
+                  <Link legacyBehavior href="/component/navbar/careerPage">
                     <a>Career</a>
                   </Link>
                 </li>

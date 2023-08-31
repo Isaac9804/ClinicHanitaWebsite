@@ -1,5 +1,7 @@
 "use client";
 
+import "@/app/globals.css";
+
 import Head from "next/head";
 import Navbar1 from "@/app/component/navbar/Navbar1";
 import Hero1 from "@/app/component/hero/Hero1";

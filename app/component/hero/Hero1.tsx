@@ -30,7 +30,7 @@ function Hero1() {
               {/* <img src="..\public\Doctor.png" alt="" /> */}
             </div>
             <div className="pr-2 flex-grow pt-5 lg:p-10 xl:p-24 ">
-              <h1 className="font-extrabold text-white text-2xl  tracking-widest py-2 lg:text-6xl xl:text-7xl xl:py-5">
+              <h1 className="font-extrabold text-white text-2xl  tracking-widest py-2 lg:text-6xl 2xl:text-8xl 2xl:py-5">
                 KLINIK <span className="text-yellow-300">HANITA</span>
               </h1>
               <p className="text-white text-xxs lg:text-xl lg:py-3 xl:text-2xl ">
@@ -39,8 +39,8 @@ function Hero1() {
 
               {/* Contact Us button */}
               <a href="https://wa.me/60192484931?text=Hello+I'm+looking+for+a+doctor.+please+send+help!!!">
-                <div className="flex border-2 xl:border-4 border-solid border-white rounded-full bg-green-600 justify-center my-3 items-center gap-1 px-2 py-0.5 w-fit lg:py-3 lg:px-5 xl:py-3 lg:gap-3 xl:px-5 xl:gap-5  ">
-                  <div className="text-white text-lg lg:text-2xl  ">
+                <div className="flex border-2 xl:border-4 border-solid border-white rounded-full bg-green-600 justify-center my-3 items-center gap-1 px-2 py-0.5 w-fit lg:py-3 lg:px-5 xl:py-2 lg:gap-3 xl:px-5 xl:gap-5  ">
+                  <div className="text-white text-lg lg:text-3xl  ">
                     <AiOutlineWhatsApp />
                   </div>
                   <h2 className="text-white text-xxs py-0 font-bold lg:text-lg  ">
