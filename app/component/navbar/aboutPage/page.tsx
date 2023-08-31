@@ -13,23 +13,44 @@ function AboutPage() {
       <Navbar1 />
       {/* ----------------------Group Photo Section--------------------------------------- */}
       <div className="bg-beige">
-        <div className="hidden relative  lg:block h-[350px]  xl:h-[620px]  max-w-[1920px] mx-auto w-10/12">
+        <div className="hidden relative  lg:block h-[350px]  xl:h-[450px] 2xl:h-[650px]  max-w-[1920px] mx-auto w-10/12">
           <Image
-            className="object-top  "
+            className="object-top lg:pt-10 xl:pt-16 "
             src={GroupPicture}
             alt=""
             layout="fill"
             objectFit="cover"
           />
+          <h1 className=" text-3xl text-center font-black tracking-wider py-10 text-white lg:text-9xl lg:py-10">
+            ABOUT US
+          </h1>
         </div>
       </div>
 
       <div className="max-w-[1920px] mx-auto w-10/12">
-        {/* ----------------------About Dr Section--------------------------------------- */}
+        {/* ----------------------Vision and Mission Section--------------------------------------- */}
+        <div className="mx-auto text-center py-32 w-3/5">
+          <div>
+            <h1 className="font-black text-6xl pb-10">VISION</h1>
 
-        <h1 className="text-3xl text-center font-black tracking-wider py-10 text-purple lg:text-8xl lg:py-40">
-          ABOUT US
-        </h1>
+            <p className="text-2xl">
+              "To be a trusted leader in comprehensive healthcare, dedicated to
+              empowering individuals and promoting holistic well-being within
+              our community."
+            </p>
+          </div>
+          <div className="py-16">
+            <h1 className="font-black text-6xl pb-10">MISSION</h1>
+
+            <p className="text-2xl">
+              "To provide exceptional, patient-centred healthcare services with
+              a focus on quality, compassion, and innovation, while promoting
+              wellness, preventive care, and community engagement."
+            </p>
+          </div>
+        </div>
+
+        {/* ----------------------About Dr Section--------------------------------------- */}
         <div>
           <div className=" mx-auto shadow-xl bg-slate-300 block lg:flex   rounded-xl  overflow-hidden xl:h-[700px] ">
             <div className="relative h-[500px] md:h-[720px] lg:w-1/2 xl:w-1/3 lg:h-auto ">
@@ -93,11 +114,11 @@ function AboutPage() {
         </div>
 
         {/* ----------------------Everyone Section--------------------------------------- */}
-        <div>
+        <div >
           <h1 className="text-3xl text-center font-black tracking-wider py-10 text-purple lg:text-8xl lg:py-40">
             TEAM
           </h1>
-          <div>
+          <div className="justify-center">
             <TeamCard />
           </div>
         </div>
