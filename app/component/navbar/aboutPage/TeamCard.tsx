@@ -62,7 +62,10 @@ function TeamCard() {
   return (
     <main className=" sm:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-4">
       {teams.map((team) => (
-        <div className="overflow-hidden relative  rounded-xl mb-20">
+        <div
+          key={team.id}
+          className="overflow-hidden relative  rounded-xl mb-20"
+        >
           <Image
             className="scale-[170%] transform transition duration-500 hover:scale-[200%]"
             src={team.img}
