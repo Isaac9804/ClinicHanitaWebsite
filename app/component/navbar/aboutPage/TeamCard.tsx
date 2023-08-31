@@ -27,7 +27,7 @@ const teams = [
     id: 3,
     img: Aini,
     name: "Aini Hidayah",
-    position: "Pembantu Klinik",
+    position: "Pegawai Sumber Manusia",
   },
   {
     id: 4,
