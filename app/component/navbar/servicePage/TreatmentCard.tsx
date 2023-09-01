@@ -81,7 +81,7 @@ const treatments = [
 function TreatmentCard() {
   return (
     <main className=" sm:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 ">
-      {treatments.map((treatment) => (
+      {treatments.map((treatment, id: number) => (
         <div className="  my-10 md:my-0 bg-gray-100  overflow-hidden rounded-xl  drop-shadow-md  transform transition duration-500 hover:scale-110">
           <div key={treatment.id} className="  relative  h-80">
             <Image
