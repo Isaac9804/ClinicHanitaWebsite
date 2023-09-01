@@ -26,7 +26,9 @@ export default function Home() {
 
       {/* ----------------------Navbar Section--------------------------------------- */}
 
-      <Navbar1 />
+      <div className="sticky top-0 z-10">
+        <Navbar1 />
+      </div>
 
       {/* ----------------------Hero Section--------------------------------------- */}
 
