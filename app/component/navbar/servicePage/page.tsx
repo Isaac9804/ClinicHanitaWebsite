@@ -83,7 +83,7 @@ function ServicePage() {
             </h1>
             <TreatmentCard />
           </div>
-          {/* 
+          
           <div id="promo" className="w-4/5 mx-auto py-10">
             <h1 className="text-center text-2xl lg:text-6xl py-5 mt-20 lg:py-20 lg:mt-20">
               Promo-Package
@@ -101,7 +101,7 @@ function ServicePage() {
               Medical Studies and Evaluations
             </h1>
             <StudiesSec />
-          </div> */}
+          </div>
         </div>
       </div>
     </main>

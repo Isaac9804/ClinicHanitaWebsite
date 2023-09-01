@@ -46,8 +46,11 @@ function StudiesSec() {
   return (
     <main className=" sm:grid grid-cols-2 lg:grid-cols-3  gap-10 ">
       {treatments.map((treatment4) => (
-        <div className="  my-10 md:my-0 bg-blue-100  overflow-hidden rounded-xl  drop-shadow-md  transform transition duration-500 hover:scale-110">
-          <div key={treatment4.id} className="  relative  h-80">
+        <div
+          key={treatment4.id}
+          className="  my-10 md:my-0 bg-blue-100  overflow-hidden rounded-xl  drop-shadow-md  transform transition duration-500 hover:scale-110"
+        >
+          <div className="  relative  h-80">
             <Image
               className=" "
               src={treatment4.img}
