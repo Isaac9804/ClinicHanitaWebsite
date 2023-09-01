@@ -5,28 +5,28 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 
 const treatments = [
   {
-    id: 4,
+    id: 1,
     name: " Thyroid Screening  ",
     img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
     list: "Thyroid Func􀆟on Tests (FT3, FT4 TSH)",
     whatsapp: "",
   },
   {
-    id: 5,
+    id: 2,
     name: " Thyroid Autoimmune Special  ",
     img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
     list: "FT3, FT4, TSH, Anti-Thyroid Peroxidase, Anti- Thyroglobulin",
     whatsapp: "",
   },
   {
-    id: 6,
+    id: 3,
     name: " Renal Profile  ",
     img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
     list: "Urea, Crea􀆟nine, Calcium, Phosphate, Uric Acid, Sodium, Potassium Chloride, Albumin, eGFR",
     whatsapp: "",
   },
   {
-    id: 7,
+    id: 4,
     name: " Thalassemia Screening  ",
     img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
     list: "Ferri􀆟n, Hb Analysis",
@@ -34,14 +34,14 @@ const treatments = [
   },
 
   {
-    id: 11,
+    id: 5,
     name: "Antenatal Screen 4KB & HIV ",
     img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
     list: "FBC, HBsAg & Ab, RPR (VDRL & Titre), Rubella IgG Ab, HIV I&II Ab",
     whatsapp: "",
   },
   {
-    id: 12,
+    id: 6,
     name: "Menstrual Cycle Studies ",
     img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
     list: "FSH, LH, Estradiol, Progesterone",
