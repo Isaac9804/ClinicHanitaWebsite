@@ -83,8 +83,11 @@ function TreatmentCard() {
   return (
     <main className=" sm:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 ">
       {treatments.map((treatment) => (
-        <div className="  my-10 md:my-0 bg-gray-100  overflow-hidden rounded-xl  drop-shadow-md  transform transition duration-500 hover:scale-110">
-          <div key={treatment.name} className="  relative  h-80">
+        <div
+          key={treatment.id}
+          className="  my-10 md:my-0 bg-gray-100  overflow-hidden rounded-xl  drop-shadow-md  transform transition duration-500 hover:scale-110"
+        >
+          <div className="  relative  h-80">
             <Image
               className=" "
               src={treatment.img}
