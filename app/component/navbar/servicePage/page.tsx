@@ -78,7 +78,9 @@ function ServicePage() {
         <div className="max-w-[1920px] mx-auto ">
           {/* ----------------------Treatment and lab Section--------------------------------------- */}
           <div id="treatment" className="w-4/5 mx-auto py-10">
-            <h1 className="text-center text-2xl lg:text-6xl py-5 mt-20 lg:py-20 lg:mt-20">Treatment</h1>
+            <h1 className="text-center text-2xl lg:text-6xl py-5 mt-20 lg:py-20 lg:mt-20">
+              Treatment
+            </h1>
             <TreatmentCard />
           </div>
           <div className="w-4/5 mx-auto py-10">{/* <LabtestCard /> */}</div>

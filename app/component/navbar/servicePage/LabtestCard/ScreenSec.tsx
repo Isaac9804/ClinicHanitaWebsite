@@ -52,12 +52,12 @@ const treatments = [
 function ScreenSec() {
   return (
     <main className=" sm:grid grid-cols-2 lg:grid-cols-3 gap-10 ">
-      {treatments.map((treatment) => (
+      {treatments.map((treatment3) => (
         <div className="  my-10 md:my-0 bg-blue-100  overflow-hidden rounded-xl  drop-shadow-md  transform transition duration-500 hover:scale-110">
-          <div key={treatment.id} className="  relative  h-80">
+          <div key={treatment3.id} className="  relative  h-80">
             <Image
               className=" "
-              src={treatment.img}
+              src={treatment3.img}
               alt=""
               layout="fill"
               objectFit="cover"
@@ -66,8 +66,8 @@ function ScreenSec() {
 
           <div className="p-5 flex flex-col justify-between 2xl:h-[350px] xl:p-10">
             <div>
-              <h2 className="text-2xl font-bold pb-5">{treatment.name}</h2>
-              <h3 className="">{treatment.list}</h3>
+              <h2 className="text-2xl font-bold pb-5">{treatment3.name}</h2>
+              <h3 className="">{treatment3.list}</h3>
             </div>
             <div className="flex justify-center items-center gap-2 w-full rounded-lg bg-blue-700 hover:bg-blue-500 hover:shadow-md text-white px-3 py-2 mt-5">
               <div className="text-lg">

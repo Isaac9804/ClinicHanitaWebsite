@@ -109,12 +109,12 @@ const treatments = [
 function LabtestCard() {
   return (
     <main className=" sm:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 ">
-      {treatments.map((treatment) => (
+      {treatments.map((treatment1) => (
         <div className="  my-10 md:my-0 bg-blue-100  overflow-hidden rounded-xl  drop-shadow-md  transform transition duration-500 hover:scale-110">
-          <div key={treatment.id} className="  relative  h-80">
+          <div key={treatment1.id} className="  relative  h-80">
             <Image
               className=" "
-              src={treatment.img}
+              src={treatment1.img}
               alt=""
               layout="fill"
               objectFit="cover"
@@ -129,8 +129,8 @@ function LabtestCard() {
           </div>
 
           <div className="p-10">
-            <h2 className="text-2xl font-bold pb-5">{treatment.name}</h2>
-            <h3 className="">{treatment.list}</h3>
+            <h2 className="text-2xl font-bold pb-5">{treatment1.name}</h2>
+            <h3 className="">{treatment1.list}</h3>
           </div>
         </div>
       ))}
