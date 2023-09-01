@@ -19,6 +19,7 @@ module.exports = {
         xxxs: '0.48rem',
         kh : '2rem',
       },
+      display:['group-focus'],
     },
       
     

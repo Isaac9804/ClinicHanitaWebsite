@@ -18,6 +18,14 @@ const nextConfig = {
 
 module.exports = {
     images: {
-        domains: ['d1csarkz8obe9u.cloudfront.net','i.ibb.co','images.unsplash.com','mail.google.com','drive.google.com'],
+        domains: ['img.freepik.com','d1csarkz8obe9u.cloudfront.net','i.ibb.co','images.unsplash.com','mail.google.com','drive.google.com','images.pexels.com'],
     },
+
+    /* next.config.js  */
+    i18n: {
+        locales: ["en"],
+        defaultLocale: "en",
+      },
 }
+
+
