@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Navbar1 from "../Navbar1";
-import TreatmentCard from "./TreatmentCard";
+import TreatmentCard from "./Treatment/TreatmentCard";
 
 import PromoSec from "./LabtestCard/PromoSec";
 import ScreenSec from "./LabtestCard/ScreenSec";
