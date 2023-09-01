@@ -27,14 +27,14 @@ const treatments = [
   },
 
   {
-    id: 12,
+    id: 11,
     name: "Menstrual Cycle Studies ",
     img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
     list: "FSH, LH, Estradiol, Progesterone",
     whatsapp: "",
   },
   {
-    id: 13,
+    id: 12,
     name: "MGTT ",
     img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
     list: "Modified Glucose Tolerance Test: FBS, 2HR Post Prandial",
