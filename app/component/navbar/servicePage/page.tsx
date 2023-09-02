@@ -11,6 +11,8 @@ import StudiesSec from "./LabtestCard/StudiesSec";
 import Dropdown from "rsuite/Dropdown";
 import { NextPage } from "next";
 import Link from "next/link";
+import { Footer } from "rsuite";
+import Footer1 from "../../footer/Footer1";
 
 // https://img.freepik.com/free-photo/young-asia-female-doctor-white-medical-uniform-using-clipboard-is-delivering-great-news-talk-discuss-results_7861-3135.jpg?w=1480&t=st=1693547479~exp=1693548079~hmac=a8f72e72677aac88492d062a1926fb94e406f7e167a2e9d296ed74d2ef499e36
 
@@ -26,7 +28,7 @@ function ServicePage() {
       <div className="sticky top-0 z-10">
         <Navbar1 />
         <div className="bg-white text-slate-700 flex justify-around sticky top-16 z-10  text-center py-5  shadow-lg text-xs lg:text-xl">
-          <button className=" transform transition duration-500 hover:scale-125 ">
+          <button className=" transform transition duration-500 hover:scale-110 ">
             <Link rel="stylesheet" href="#treatment">
               TREATMENT
             </Link>
@@ -35,7 +37,7 @@ function ServicePage() {
           <div>
             <Dropdown
               title="LAB TEST"
-              className="relative transform transition duration-500 hover:scale-125"
+              className="relative transform transition duration-500 hover:scale-110"
             >
               <div className="absolute right-0  top-full min-w-full w-max bg-white shadow-md mt-10 rounded-xl">
                 <Link rel="stylesheet" href="#promo">
@@ -83,7 +85,7 @@ function ServicePage() {
             </h1>
             <TreatmentCard />
           </div>
-          
+
           <div id="promo" className="w-4/5 mx-auto py-10">
             <h1 className="text-center text-2xl lg:text-6xl py-5 mt-20 lg:py-20 lg:mt-20">
               Promo-Package
@@ -103,6 +105,9 @@ function ServicePage() {
             <StudiesSec />
           </div>
         </div>
+      </div>
+      <div className="mt-20">
+        <Footer1 />
       </div>
     </main>
   );

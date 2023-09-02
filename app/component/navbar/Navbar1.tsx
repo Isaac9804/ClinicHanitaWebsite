@@ -14,7 +14,7 @@ export default function Navbar1() {
         <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex md:px-8">
           <div>
             <div className=" flex items-center justify-between py-3 md:py-5 md:block ">
-              <a href="#">
+              <a href="/">
                 <Image src={Logo} alt="" className="w-[76px] md:w-24 lg:w-36" />
                 {/* <h2 className="text-2xl text-white font-bold">NEXT JS</h2> */}
               </a>

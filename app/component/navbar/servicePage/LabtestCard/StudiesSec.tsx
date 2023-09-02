@@ -6,22 +6,22 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 const treatments = [
   {
     id: 8,
-    name: " Arthri􀆟s Studies ",
-    img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
+    name: " Arthritis Studies ",
+    img: "https://img.freepik.com/free-photo/elderly-woman-suffering-from-pain-hand-arthritis-old-person-senior-woman-female-suffering-from-pain-home_657921-210.jpg",
     list: "ESR, FBC, Uric Acid, LE Cells Test, RA Factor, ASOT Titre, ANA (SLE), C Reac􀆟ve Protein (hs-CRP)",
     whatsapp: "",
   },
   {
     id: 9,
     name: " Coronary Risk Studies ",
-    img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
+    img: "https://img.freepik.com/free-photo/human-heart-design_1048-1683.jpg?",
     list: "Lipid Profile, Total Cholesterol, HDL, LDL, TG, Ra􀆟o Total/HDL",
     whatsapp: "",
   },
   {
     id: 10,
     name: " Diabetes Studies ",
-    img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
+    img: "https://img.freepik.com/free-photo/hand-holding-blood-glucose-meter-measuring-blood-sugar-background-is-stethoscope-chart-file_1387-942.jpg?",
     list: "Glucose, HbA1C",
     whatsapp: "",
   },
@@ -29,14 +29,14 @@ const treatments = [
   {
     id: 11,
     name: "Menstrual Cycle Studies ",
-    img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
+    img: "https://img.freepik.com/free-photo/asian-woman-with-menstrual-problems-young-woman-with-stomach-ache-lying-bedlying-bed-holding-her-stomach_609648-1416.jpg?",
     list: "FSH, LH, Estradiol, Progesterone",
     whatsapp: "",
   },
   {
     id: 12,
     name: "MGTT ",
-    img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
+    img: "https://img.freepik.com/free-photo/coronavirus-sample-procedure_23-2148709150.jpg?w=1380&t=st=1693622161~exp=1693622761~hmac=8b968bbb85d8b9dc36f8994af3e11287edda4532cfe81683dd065d7caf4f7ef6",
     list: "Modified Glucose Tolerance Test: FBS, 2HR Post Prandial",
     whatsapp: "",
   },

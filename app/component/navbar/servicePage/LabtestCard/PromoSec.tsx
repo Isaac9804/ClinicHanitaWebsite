@@ -7,21 +7,21 @@ const treatments = [
   {
     id: 1,
     name: " Promo A   ",
-    img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
+    img: "https://img.freepik.com/free-photo/coronavirus-blood-samples-assortment-lab_23-2149107254.jpg?",
     list: "Full Blood Count, Kidney Function, Liver Function, Blood Sugar, Cholesterol Studies, Uric Acid, HbA1C and Urine Analysis.",
     whatsapp: "",
   },
   {
     id: 2,
     name: " Promo B   ",
-    img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
+    img: "https://img.freepik.com/free-photo/coronavirus-arrangement-with-blood-samples-vaccine_23-2149107207.jpg?",
     list: "Full Blood Count, Kidney Function, Liver Function, Uric Acid, Blood Sugar, Cholesterol Studies, HbA1C, Rapid Plasma Reagent (RPR), Blood Group, Thyroid, VDRL, Hepatitis B (Ag & Ab), Rheumatoid and Urine Analysis.",
     whatsapp: "",
   },
   {
     id: 3,
     name: " Promo Cancer (Women & Men)  ",
-    img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
+    img: "https://img.freepik.com/free-photo/crop-hands-with-blue-ribbon-near-stethoscope_23-2147738469.jpg?",
     list: (
       <li className="list-none">
         <ul>1. Breast Examination</ul>

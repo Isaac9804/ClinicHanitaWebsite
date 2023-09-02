@@ -6,6 +6,7 @@ import GroupPicture from "@/public/KlinikGroup.jpg.png";
 import { BsLinkedin, BsFacebook } from "react-icons/bs";
 import "@/app/globals.css";
 import TeamCard from "./TeamCard";
+import Footer1 from "../../footer/Footer1";
 
 function AboutPage() {
   return (
@@ -126,6 +127,9 @@ function AboutPage() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-20">
+        <Footer1 />
       </div>
     </main>
   );
