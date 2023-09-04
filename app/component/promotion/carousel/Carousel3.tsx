@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { BsArrowUpRightCircle } from "react-icons/bs";
+import Transition from "rsuite/esm/Animation/Transition";
 
 const whatsappNumber = "60192484931";
 
@@ -53,7 +54,9 @@ export const Carousel3 = () => {
         <div className="overflow-hidden relative mx-auto max-w-2xl  lg:rounded-xl lg:shadow-xl xl:rounded-3xl">
           <div
             className=" flex transition-transform ease-out duration-500 lg:w-[450px] xl:w-[550px] 2xl:w-[650px]  "
-            style={{ transform: `translateX(-${curr})` }}
+            style={{
+              transform: `translateX(${curr})`,
+            }}
           >
             <img className=" " src={slides1[curr].img} alt="" />
           </div>

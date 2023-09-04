@@ -63,15 +63,6 @@ function ServicePage() {
 
       {/* ----------------------Header Section--------------------------------------- */}
       <div>
-        {/* <div className=" relative w-full h-[200px] lg:h-[400px]">
-          <Image
-            className=" object-top"
-            src=" https://img.freepik.com/free-photo/close-up-doctor-with-stethoscope_23-2149191355.jpg?"
-            alt=""
-            layout="fill"
-            objectFit="cover"
-          />
-        </div> */}
         <div>
           <h1 className="bg-beige  w-full text-3xl text-center font-black tracking-wider py-3 text-amber-800 lg:text-9xl lg:py-10 ">
             SERVICES

@@ -15,6 +15,11 @@ function AboutPage() {
         <Navbar1 />
       </div>
       <div>
+        <h1 className="bg-beige  w-full text-3xl text-center font-black tracking-wider py-3 text-amber-800 lg:text-9xl lg:py-10 lg:hidden">
+          ABOUT
+        </h1>
+      </div>
+      <div>
         {/* ----------------------Group Photo Section--------------------------------------- */}
         <div className="bg-beige">
           <div className="hidden relative  lg:block h-[350px]  xl:h-[450px] 2xl:h-[650px]  max-w-[1920px] mx-auto w-10/12">
@@ -33,14 +38,31 @@ function AboutPage() {
 
         <div className="max-w-[1920px] mx-auto w-10/12">
           {/* ----------------------Vision and Mission Section--------------------------------------- */}
-          <div className="mx-auto text-center py-20 lg:py-32 w-4/5 lg:w-3/5">
+          <div className="text-lg lg:text-2xl pb-16 text-center pt-20 ">
+            <h1 className=" hidden font-black text-3xl lg:text-6xl pb-10 lg:block">
+              ABOUT
+            </h1>
+            <p>
+              Klinik Hanita is a renowned healthcare facility that has gained a
+              reputation for its comprehensive approach to health and wellness.
+              Klinik Hanita first opened in 2007 and have served the communities
+              for more than 16 years. The clinics are managed by Dr Hanita Binti
+              Abdul Wahid herself and she is very committed in providing the
+              best primary healthcare to as many people regardless of cultural
+              and social background. Dr. Hanita has recruited her management
+              team that are well qualified, dedicated and passionate medical
+              doctors, together with well-trained clinical staff and
+              radiographer.
+            </p>
+          </div>
+          <div className="mx-auto text-center py-20 lg:py-10 w-4/5 lg:w-3/5">
             <div>
               <h1 className="font-black text-3xl lg:text-6xl pb-10">VISION</h1>
 
               <p className="text-lg lg:text-2xl">
-                "To be a trusted leader in comprehensive healthcare, dedicated
-                to empowering individuals and promoting holistic well-being
-                within our community."
+                &quot;To be a trusted leader in comprehensive healthcare,
+                dedicated to empowering individuals and promoting holistic
+                well-being within our community.&quot;
               </p>
             </div>
             <div className="py-16">
