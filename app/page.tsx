@@ -1,6 +1,7 @@
 "use client";
 
 import "@/app/globals.css";
+import { Inter } from "@next/font/google";
 
 import Head from "next/head";
 import Navbar1 from "@/app/component/navbar/Navbar1";
@@ -13,9 +14,13 @@ import { BsFacebook } from "react-icons/bs";
 import Services from "./component/services/Services";
 import MapLocation from "./component/mapLocation/MapLocation";
 
+const inter = Inter({
+  subsets: ["latin"],
+});
+
 export default function Home() {
   return (
-    <main>
+    <main className={inter.className}>
       {/* ----------------------Header Section--------------------------------------- */}
 
       <Head>

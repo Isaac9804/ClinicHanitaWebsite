@@ -8,7 +8,7 @@ import Footer1 from "../../footer/Footer1";
 import aia from "@/public/panels_img/AIA logo.webp";
 import asp from "@/public/panels_img/asp medical group logo.jpg";
 import compu from "@/public/panels_img/LogoCompuMed2.png";
-// import eBen from "@/public/panels_img/";
+import eBen from "@/public/panels_img/eben assist.png";
 import emas from "@/public/panels_img/emas logo.png";
 import etiqa from "@/public/panels_img/etiqa logo.png";
 import fomema from "@/public/panels_img/FOMEMA LOGO.png";
@@ -16,7 +16,7 @@ import connect from "@/public/panels_img/health-connect logo.jpg";
 import metrics from "@/public/panels_img/healthmetric-logo.png";
 import iyres from "@/public/panels_img/IYRES LOGO.png";
 import ihp from "@/public/panels_img/IHP HEALTH CARE LOGO.png";
-// import ia from "@/public/panels_img/";
+import ia from "@/public/panels_img/IA.png";
 import llm from "@/public/panels_img/LLM LOGO.png";
 import road from "@/public/panels_img/miros-logo.png";
 import medi from "@/public/panels_img/mediclinic LOGO.jpg";
@@ -32,13 +32,13 @@ import red from "@/public/panels_img/RED Alert LOGO.png";
 import ukm from "@/public/panels_img/UKM logo.png";
 import upm from "@/public/panels_img/upm loogo.png";
 import usim from "@/public/panels_img/USIM logo.png";
-// import wecare from "@/public/panels_img/";
+import wecare from "@/public/panels_img/We_Care-removebg-preview.png";
 
 const PanelsList = [
   { id: 1, name: "AIA", img: aia },
   { id: 2, name: "ASP Medical Group", img: asp },
   { id: 3, name: "CompuMed", img: compu },
-  // { id: 4, name: "eBenAssist", img:  },
+  { id: 4, name: "eBenAssist", img: eBen },
   { id: 5, name: "E-Mas", img: emas },
   { id: 6, name: "Etiqa", img: etiqa },
   { id: 7, name: "Fomema", img: fomema },
@@ -46,7 +46,7 @@ const PanelsList = [
   { id: 9, name: "Health Metrics", img: metrics },
   { id: 10, name: "Institute For Youth Rearch (IPPBM / IYRES)", img: iyres },
   { id: 11, name: "Integrated Health Plans (IHP)", img: ihp },
-  // { id: 12, name: "International Assistance (IA)", img:  },
+  { id: 12, name: "International Assistance (IA)", img: ia },
   { id: 13, name: "Lembaga Lebuhraya Malaysia (LLM)", img: llm },
   {
     id: 14,
@@ -66,7 +66,7 @@ const PanelsList = [
   { id: 25, name: "Universiti Kebangsaan Malaysia (UKM)", img: ukm },
   { id: 26, name: "Universiti Putra Malaysia (UPM)", img: upm },
   { id: 27, name: "Universiti Sains Islam Malaysia (USIM)", img: usim },
-  // { id: 28, name: "WeCare", img: wecare },
+  { id: 28, name: "WeCare", img: wecare },
 ];
 
 function PanelsPage() {
