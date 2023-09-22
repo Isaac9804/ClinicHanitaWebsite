@@ -101,7 +101,7 @@ function PanelsPage() {
           </div>
         </div>
       </div>
-      <div className="w-4/5 mx-auto py-20">
+      <div className="w-4/5 mx-auto py-20 max-w-[1440px]">
         <div className=" grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-5 lg:gap-10">
           {PanelsList.map((panel) => (
             <div
