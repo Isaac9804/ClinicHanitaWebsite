@@ -4,7 +4,7 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import Transition from "rsuite/esm/Animation/Transition";
 
-const whatsappNumber = "60192484931";
+const whatsappNumber = "60132401055";
 
 const slides1 = [
   {

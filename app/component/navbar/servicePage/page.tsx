@@ -14,6 +14,8 @@ import Link from "next/link";
 import { Footer } from "rsuite";
 import Footer1 from "../../footer/Footer1";
 
+import { FaHandHoldingMedical } from "react-icons/fa";
+
 // https://img.freepik.com/free-photo/young-asia-female-doctor-white-medical-uniform-using-clipboard-is-delivering-great-news-talk-discuss-results_7861-3135.jpg?w=1480&t=st=1693547479~exp=1693548079~hmac=a8f72e72677aac88492d062a1926fb94e406f7e167a2e9d296ed74d2ef499e36
 
 //Freepik
@@ -62,35 +64,56 @@ function ServicePage() {
       </div>
 
       {/* ----------------------Header Section--------------------------------------- */}
-      <div>
+      <div className="mt-10">
         <div>
-          <h1 className="bg-beige  w-full text-3xl text-center font-black tracking-wider py-3 text-amber-800 lg:text-9xl lg:py-10 ">
-            SERVICES
-          </h1>
+          <div className="overflow-hidden  w-10/12 bg-pink-50  mx-auto max-w-[1440px] rounded-2xl drop-shadow-xl">
+            <div className="p-7  text-slate-700 md:p-16 lg:p-20 xl:p-24">
+              <div className="flex items-center  gap-3 xl:gap-5">
+                <FaHandHoldingMedical className="text-4xl md:text-5xl lg:text-7xl" />
+                <h3 className="font-black text-lg md:text-2xl lg:text-4xl">
+                  SERVICES
+                </h3>
+              </div>
+              <div className="pt-4 text-justify md:pt-10 ">
+                <p className="text-xs md:text-base xl:text-xl">
+                  Klinik Hanita is a respected healthcare facility established
+                  in 2007, led by Dr. Hanita Binti Abdul Wahid. They've served
+                  communities for over 16 years, focusing on comprehensive
+                  healthcare. Our expert team includes qualified medical
+                  professionals and well-trained clinical staff. Services
+                  offered encompass primary healthcare, specialized treatments,
+                  diagnostic imaging, health education, and emergency care, all
+                  provided with cultural sensitivity. Klinik Hanita prioritizes
+                  individual well-being, offering high-quality healthcare
+                  services in a welcoming environment.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="max-w-[1920px] mx-auto ">
           {/* ----------------------Treatment and lab Section--------------------------------------- */}
           <div id="treatment" className="w-4/5 mx-auto py-10">
-            <h1 className="text-center text-2xl lg:text-6xl py-5 mt-20 lg:py-20 lg:mt-20">
+            <h1 className="uppercase text-slate-800 pt-20 pb-3 text-center text-lg font-bold md:text-2xl md:pt-40 md:pb-28 lg:text-4xl">
               Treatment
             </h1>
             <TreatmentCard />
           </div>
 
           <div id="promo" className="w-4/5 mx-auto py-10">
-            <h1 className="text-center text-2xl lg:text-6xl py-5 mt-20 lg:py-20 lg:mt-20">
-              Promo-Package
+            <h1 className="uppercase text-slate-800 pt-20 pb-3 text-center text-lg font-bold md:text-2xl md:pt-40 md:pb-28 lg:text-4xl">
+              promo-package
             </h1>
             <PromoSec />
           </div>
           <div id="screening" className="w-4/5 mx-auto py-10">
-            <h1 className="text-center text-2xl lg:text-6xl py-5 mt-20 lg:py-20 lg:mt-20">
+            <h1 className="uppercase text-slate-800 pt-20 pb-3 text-center text-lg font-bold md:text-2xl md:pt-40 md:pb-28 lg:text-4xl">
               Screening and Diagnostic Tests
             </h1>
             <ScreenSec />
           </div>
           <div id="studies" className="w-4/5 mx-auto py-10">
-            <h1 className="text-center text-2xl lg:text-6xl py-5 mt-20 lg:py-20 lg:mt-20">
+            <h1 className="uppercase text-slate-800 pt-20 pb-3 text-center text-lg font-bold md:text-2xl md:pt-40 md:pb-28 lg:text-4xl">
               Medical Studies and Evaluations
             </h1>
             <StudiesSec />

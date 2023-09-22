@@ -4,6 +4,8 @@ import { useState } from "react";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
+const whatsappNumber = "60132401055";
+
 const treatments = [
   {
     id: 1,
@@ -24,7 +26,10 @@ const treatments = [
         </li>
       </div>
     ),
-    whatsapp: "",
+    whatsapp:
+      "https://wa.me/" +
+      whatsappNumber +
+      "?text=Hi Im interested in the Routine Health Examinations and Check-ups Treatment Category.",
   },
   {
     id: 2,
@@ -39,7 +44,10 @@ const treatments = [
         </li>
       </div>
     ),
-    whatsapp: "",
+    whatsapp:
+      "https://wa.me/" +
+      whatsappNumber +
+      "?text=Hi Im interested in the Immunizations and Vaccinations Treatment Category.",
   },
   {
     id: 3,
@@ -57,7 +65,10 @@ const treatments = [
         </li>
       </div>
     ),
-    whatsapp: "",
+    whatsapp:
+      "https://wa.me/" +
+      whatsappNumber +
+      "?text=Hi Im interested in the Diagnostic Tests and Screenings Treatment Category.",
   },
   {
     id: 4,
@@ -75,7 +86,10 @@ const treatments = [
         </li>
       </div>
     ),
-    whatsapp: "",
+    whatsapp:
+      "https://wa.me/" +
+      whatsappNumber +
+      "?text=Hi Im interested in the Medical Treatments and Procedures Treatment Category.",
   },
 ];
 
@@ -85,7 +99,7 @@ function TreatmentCard() {
       {treatments.map((treatment) => (
         <div
           key={treatment.id}
-          className="  my-10 md:my-0 bg-gray-100  overflow-hidden rounded-xl  drop-shadow-md  transform transition duration-500 hover:scale-110"
+          className="  my-10 md:my-0 bg-gray-100  overflow-auto rounded-xl  drop-shadow-md  transform transition duration-500 hover:scale-105"
         >
           <div className="  relative  h-80">
             <Image
@@ -97,17 +111,21 @@ function TreatmentCard() {
             />
           </div>
 
-          <div className="p-5 flex flex-col justify-between 2xl:h-[550px] xl:p-10">
+          <div className="p-5 flex flex-col justify-between md:h-[500px] lg:h-[650px]   2xl:h-[550px] xl:p-7">
             <div>
-              <h2 className="text-2xl font-bold pb-5">{treatment.name}</h2>
-              <h3 className="">{treatment.list}</h3>
+              <h2 className="font-bold text-lg  lg:text-xl pb-5">
+                {treatment.name}
+              </h2>
+              <h3 className="text-xs md:text-base ">{treatment.list}</h3>
             </div>
-            <div className="flex justify-center items-center gap-2 w-full rounded-lg bg-blue-700 hover:bg-blue-500 hover:shadow-md text-white px-3 py-2 mt-5">
-              <div className="text-lg">
-                <AiOutlineWhatsApp />
+            <a href={treatment.whatsapp}>
+              <div className="flex justify-center items-center gap-2 w-full rounded-lg bg-blue-700 hover:bg-blue-500 hover:shadow-md text-white px-3 py-2 mt-5">
+                <div className="text-lg">
+                  <AiOutlineWhatsApp />
+                </div>
+                <button className=" text-base ">Book Now</button>
               </div>
-              <button className=" ">Book Now</button>
-            </div>
+            </a>
           </div>
         </div>
       ))}

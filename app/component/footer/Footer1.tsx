@@ -55,14 +55,14 @@ function Footer1() {
     // </footer>
     <footer className="mt-40 bg-purple">
       <div className="max-w-[1440px] mx-auto text-white md:py-10 ">
-        <div className="  space-y-3 w-2/3 p-10 md:mx-auto md:text-center md:w-1/2 md:space-y-5 xl:w-1/4 xl:space-y-10">
+        <div className="  space-y-3 w-3/4 p-10 md:mx-auto md:text-center md:w-1/2 md:space-y-5 xl:w-1/4 xl:space-y-10">
           <h1 className="text-base font-bold  md:text-xl xl:text-3xl">
             Location
           </h1>
-          <ul className="text-xxs ">
+          <ul className="text-xs ">
             <a href="https://maps.app.goo.gl/itLgvzVXSgd3wPxS6">
-              <li className="pb-3 flex gap-2 md:block md:text-xs md:pb-7 xl:text-lg xl:pb-12">
-                <BsArrowUpRightCircle className="text-4xl md:hidden" />
+              <li className="pb-3 flex gap-4 md:block md:text-xs md:pb-7 xl:text-lg xl:pb-12">
+                <BsArrowUpRightCircle className="text-6xl md:hidden" />
                 <p>
                   21, Jalan Pinggiran Putra 4A/14, Desa Pingggiran Putra, 43000
                   Kajang, Selangor
@@ -82,7 +82,7 @@ function Footer1() {
           <h1 className="text-base font-bold  md:text-xl xl:text-3xl ">
             Contact
           </h1>
-          <ul className="pb-3 text-xxs md:text-xs md:pb-7 xl:text-lg">
+          <ul className="pb-3 text-xs md:text-xs md:pb-7 xl:text-lg">
             <li>Email : klinikhanita@gmail.com</li>
             <li>Phone : 011-39818990</li>
             <li>Whatsapp : 011-39818990</li>

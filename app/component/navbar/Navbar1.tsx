@@ -10,12 +10,16 @@ export default function Navbar1() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-full bg-purple shadow xl:px-10 ">
-        <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex md:px-8">
+      <nav className=" bg-purple shadow xl:px-10  mx-auto ">
+        <div className="max-w-[1440px] justify-between px-4 mx-auto  md:items-center md:flex md:px-8">
           <div>
-            <div className=" flex items-center justify-between py-3 md:py-5 md:block ">
+            <div className=" flex items-center justify-between py-3  md:block ">
               <a href="/">
-                <Image src={Logo} alt="" className="w-[76px] md:w-24 lg:w-36" />
+                <Image
+                  src={Logo}
+                  alt=""
+                  className="w-[66px]  md:w-20 lg:w-28"
+                />
                 {/* <h2 className="text-2xl text-white font-bold">NEXT JS</h2> */}
               </a>
               <div className="md:hidden">
@@ -55,7 +59,7 @@ export default function Navbar1() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`flex-1 justify-self-center pb-6 mt-8 md:block md:pb-0 md:mt-0 ${
                 navbar ? "block" : "hidden"
               }`}
             >
