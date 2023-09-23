@@ -71,7 +71,7 @@ export default function Navbar1() {
                 </li>
                 <li className="text-white  hover:text-yellow-300">
                   <Link legacyBehavior href="/component/navbar/aboutPage">
-                    <a>About</a>
+                    <a>About Us</a>
                   </Link>
                 </li>
                 <li className="text-white  hover:text-yellow-300">

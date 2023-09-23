@@ -161,15 +161,16 @@ function AboutPage() {
                   </p>
                 </div>
                 <p className="text-xs md:text-base  xl:text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptas nihil consectetur tempora voluptatibus, reiciendis
-                  aliquid animi maxime ipsa cupiditate accusantium similique
-                  ullam facilis, eius exercitationem eos explicabo doloribus
-                  illo fugit dolore nesciunt delectus nostrum dicta. Illum ullam
-                  eos exercitationem. Porro adipisci quas commodi optio aliquid
-                  culpa mollitia. Tempora sequi dolor similique illum hic
-                  reiciendis nihil, deleniti distinctio, dolore vel cum. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit.
+                  Dr. Hanita is a highly qualified medical professional with a
+                  strong educational background and years of experience in the
+                  field of medicine. She graduated in the year 1995 from the
+                  prestigious University of Malaya, where she earned her
+                  Bachelor of Medical and Bachelor of Surgery degrees. Doctor
+                  Hanita embarked on her professional journey by serving at
+                  Kuala Lumpur Hospital (HKL) starting in 1995 until 1999. Dr.
+                  Hanita continued to make significant contributions to the
+                  field of healthcare. From 1999 to 2001, she took on a pivotal
+                  role by working with the Minister of Health.
                 </p>
                 <div className="flex flex-col gap-1 list-none md:gap-3 pt-5 lg:py-10 lg:space-y-0 ">
                   <li>

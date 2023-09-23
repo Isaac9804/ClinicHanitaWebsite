@@ -15,7 +15,7 @@ const teams = [
     id: 1,
     img: Azreen,
     name: "Nurdina Azreen",
-    position: "Juru X-Ray",
+    position: "Radiographer",
   },
   {
     id: 2,
@@ -47,15 +47,6 @@ const teams = [
     name: "Wan Nur Fatin Amirah",
     position: "Pembantu Klinik",
   },
-  {
-    id: 7,
-    img: Karmizee,
-    name: "Karmizee Lyslee",
-    position: "Pembantu Klinik",
-  },
-  //   { id: 8, img: "@/public/Mira.jpg", name: "Mira", position: "Assistant" },
-  //   { id: 9, img: "@/public/Mira.jpg", name: "Mira", position: "Assistant" },
-  //   { id: 10, img: "@/public/Mira.jpg", name: "Mira", position: "Assistant" },
 ];
 
 function TeamCard() {
