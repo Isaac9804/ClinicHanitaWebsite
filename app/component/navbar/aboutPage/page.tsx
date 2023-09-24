@@ -199,7 +199,7 @@ function AboutPage() {
           {/* ----------------------Everyone Section--------------------------------------- */}
           <div>
             <h1 className="text-slate-800 pt-20 pb-10 text-center text-lg font-bold  md:text-2xl md:pt-40 md:pb-28 lg:text-4xl">
-              MEET OUR WONDERFUL TEAM
+              MEET OUR TEAM
             </h1>
             <div className="justify-center">
               <TeamCard />

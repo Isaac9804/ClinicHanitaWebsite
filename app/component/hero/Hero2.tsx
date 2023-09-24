@@ -44,7 +44,7 @@ function Hero2() {
               <li>SUNDAY (10AM -9PM)</li>
               <li>PUBLIC HOLIDAY (10AM - 9PM)</li>
             </ul>
-            <a href="https://wa.me/60192484931?text=Hello+I'm+looking+for+a+doctor.+please+send+help!!!">
+            <a href="https://wa.me/60132401055?text=Hello+I'm+looking+for+a+doctor.+please+send+help!!!">
               <div className="flex border-2   border-white rounded-full bg-green-600  my-5 items-center gap-2 px-3 py-1 w-fit   ">
                 <div className="text-white text-base lg:text-3xl ">
                   <AiOutlineWhatsApp />

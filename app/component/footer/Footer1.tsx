@@ -84,8 +84,8 @@ function Footer1() {
           </h1>
           <ul className="pb-3 text-xs md:text-xs md:pb-7 xl:text-lg">
             <li>Email : klinikhanita@gmail.com</li>
-            <li>Phone : 011-39818990</li>
-            <li>Whatsapp : 011-39818990</li>
+            <li>Phone : 03-89271005</li>
+            <li>Whatsapp : 013-2401055</li>
           </ul>
         </div>
         <div>
