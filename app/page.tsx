@@ -13,6 +13,7 @@ import { BsFacebook } from "react-icons/bs";
 
 import Services from "./component/services/Services";
 import MapLocation from "./component/mapLocation/MapLocation";
+import Hero2 from "./component/hero/Hero2";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,13 +32,13 @@ export default function Home() {
 
       {/* ----------------------Navbar Section--------------------------------------- */}
 
-      <div className="sticky top-0 z-10">
+      <div className="sticky top-0 z-10 drop-shadow-lg">
         <Navbar1 />
       </div>
 
       {/* ----------------------Hero Section--------------------------------------- */}
 
-      <Hero1 />
+      <Hero2 />
 
       {/* ----------------------Promotion Section--------------------------------------- */}
 
