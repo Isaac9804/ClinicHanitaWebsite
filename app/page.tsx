@@ -14,6 +14,7 @@ import { BsFacebook } from "react-icons/bs";
 import Services from "./component/services/Services";
 import MapLocation from "./component/mapLocation/MapLocation";
 import Hero2 from "./component/hero/Hero2";
+import Footer1 from "./component/footer/Footer1";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -58,7 +59,8 @@ export default function Home() {
 
       {/* ----------------------Footer Section--------------------------------------- */}
 
-      <footer>
+      <Footer1 />
+      {/* <footer>
         <div className="bg-purple mt-5 md:mt-0 ">
           <div className="max-w-[1920px] mx-auto">
             <div>
@@ -71,10 +73,10 @@ export default function Home() {
                 <BsFacebook />
               </div>
               <div className="px-10 text-white ">
-                {/* <h1 className="text-xs mx-auto text-center py-3 lg:text-xl">
+                <h1 className="text-xs mx-auto text-center py-3 lg:text-xl">
                   NO. 21, JALAN PINGGIRAN PUTRA 4A/14, DESA PINGGIRAN PUTRA,
                   43000 KAJANG
-                </h1> */}
+                </h1>
                 <h1 className="text-xs mx-auto text-center lg:text-xl ">
                   Email: <a href="">klinikhanita@gmail.com</a>
                 </h1>
@@ -96,7 +98,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </main>
   );
 }
