@@ -3,6 +3,7 @@ import Image from "next/image";
 import gpanel from "/public/panels_img/Group15.png";
 import { MdAdminPanelSettings } from "react-icons/md";
 import SearchPanels from "./Carousel/SearchPanels";
+import Link from "next/link";
 
 import { BsArrowUpRightCircle } from "react-icons/bs";
 
@@ -25,12 +26,11 @@ function Panels1() {
         <Image className="mx-auto  " src={gpanel} alt="" sizes="" />
       </div>
       <div>
-        <a href="#">
-          <div className="transform transition duration-500 hover:scale-110 hover:shadow-xl flex justify-center gap-2 py-3 px-10  rounded-full my-20 items-center bg-blue-600 text-white w-fit mx-auto lg:my-20 lg:py-5 ">
-            <h1 className="text-xs lg:text-2xl">MORE PANELS ....</h1>
-            <BsArrowUpRightCircle className="text-sm lg:text-2xl" />
-          </div>
-        </a>
+        <Link legacyBehavior href="/component/navbar/panelsPage">
+          <button className="  rounded-full bg-blue-700 hover:bg-blue-500 hover:shadow-md text-white px-5  mt-10 py-3  ">
+            <h3 className="text-xs md:text-base xl:text-lg">MORE PANELS</h3>
+          </button>
+        </Link>
       </div>
     </div>
   );

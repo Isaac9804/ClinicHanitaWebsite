@@ -43,7 +43,7 @@ export default function Home() {
 
       {/* ----------------------Promotion Section--------------------------------------- */}
 
-      <Promotion1 />
+      {/* <Promotion1 /> */}
 
       {/* ----------------------Services Section--------------------------------------- */}
 
@@ -58,8 +58,9 @@ export default function Home() {
       <MapLocation />
 
       {/* ----------------------Footer Section--------------------------------------- */}
-
-      <Footer1 />
+      <div className="lg:-mt-40">
+        <Footer1 />
+      </div>
       {/* <footer>
         <div className="bg-purple mt-5 md:mt-0 ">
           <div className="max-w-[1920px] mx-auto">

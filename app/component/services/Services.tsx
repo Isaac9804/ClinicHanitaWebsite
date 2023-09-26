@@ -1,35 +1,74 @@
 import React from "react";
-import { MdMedicalServices } from "react-icons/md";
-import ServicesMap from "./servicesMap/ServicesMap";
-import { BsArrowUpRightCircle } from "react-icons/bs";
+import Image from "next/image";
+import xray from "@/public/Services/Xray.png";
+import ultrasound from "@/public/Services/ultra.png";
+import consult from "@/public/Services/consult.png";
+import Link from "next/link";
 
 function Services() {
   return (
-    <div className="hidden lg:block mx-auto lg:p-10  xl:p-20 2xl:p-32 ">
-      <div>
-        <div className="mx-auto  text-center text-2xl max-w-[1920px] ">
-          <MdMedicalServices className=" text-purple lg:text-4xl xl:text-6xl mx-auto " />
-
-          <h1 className="text-purple  font-black tracking-widest  lg:text-4xl lg:py-5 xl:text-6xl xl:py-10">
-            SERVICES
-          </h1>
-          <p className="text-xs px-10  mx-auto leading-loose lg:text-lg lg:max-w-4xl xl:text-2xl  ">
-            Our primary care services focus on preventive care, health
-            screenings, and general wellness. We're here to be your first point
-            of contact for any health concerns.
-          </p>
+    <main className="max-w-[1440px] mx-auto w-10/12">
+      <div className="">
+        <h3 className="text-slate-800 pt-20 pb-10 text-center text-lg font-bold  md:text-2xl md:pt-20 md:pb-16 lg:text-4xl xl:pt-40 xl:pb-28">
+          SERVICES
+        </h3>
+      </div>
+      <div className=" mx-auto overflow-hidden rounded-2xl drop-shadow-lg  bg-white ">
+        <div>
+          {/* ----------------------Image Section--------------------------------------- */}
+          <div className=" flex flex-col  md:flex-row md:h-[400px] xl:h-[600px]">
+            <div className="relative h-[200px] md:h-auto md:w-1/3 ">
+              <Image src={xray} alt="" layout="fill" objectFit="cover" />
+              <h3 className="absolute bottom-0 right-0 p-3 text-white text-xs">
+                XRAY
+              </h3>
+            </div>
+            <div className="relative h-[200px] md:h-auto md:w-1/3 ">
+              <Image src={ultrasound} alt="" layout="fill" objectFit="cover" />
+              <h3 className="absolute bottom-0 right-0 p-3 text-white text-xs">
+                ULTRASOUND
+              </h3>
+            </div>
+            <div className="relative h-[200px] md:h-auto md:w-1/3 ">
+              <Image src={consult} alt="" layout="fill" objectFit="cover" />
+              <h3 className="absolute bottom-0 right-0 p-3 text-white text-xs">
+                CONSULTATION
+              </h3>
+            </div>
+            {/* <div className="relative h-20 w-full">
+              <Image src={ultrasound} alt="" />
+              <h3 className="absolute bottom-0 left-0 p-3 text-white text-xs">
+                ULTARSOUND
+              </h3>
+            </div>
+            <div className="relative h-20 w-full">
+              <Image src={consult} alt="" />
+              <h3 className="absolute bottom-0 right-0 p-3 text-white text-xs">
+                CONSULTATION
+              </h3>
+            </div> */}
+          </div>
+          {/* ----------------------Info Section--------------------------------------- */}
+          <div className="text-center w-8/12 mx-auto space-y-10 py-10">
+            <h3 className="font-bold text-lg text-center md:text-2xl lg:text-4xl">
+              STATE OF THE ART MEDICAL SERVICE
+            </h3>
+            <p className=" text-xs md:text-base  xl:text-xl">
+              "To provide exceptional, patient-centered healthcare services with
+              a focus on quality, compassion, and innovation, while promoting
+              wellness, preventive care, and community engagement."
+            </p>
+            <Link legacyBehavior href="/component/navbar/servicePage">
+              <button className="  rounded-full bg-blue-700 hover:bg-blue-500 hover:shadow-md text-white px-5  mt-5 py-3  ">
+                <h3 className="text-xs md:text-base xl:text-lg">
+                  MORE SERVICES
+                </h3>
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
-      <ServicesMap />
-      <div>
-        <a href="#">
-          <div className="transform transition duration-500 hover:scale-110 hover:shadow-xl flex justify-center gap-2 py-3 px-10  rounded-full my-20 items-center bg-blue-600 text-white w-fit mx-auto lg:my-20 lg:py-5 ">
-            <h1 className="text-xs lg:text-2xl">MORE SERVICES ....</h1>
-            <BsArrowUpRightCircle className="text-sm lg:text-2xl" />
-          </div>
-        </a>
-      </div>
-    </div>
+    </main>
   );
 }
 
