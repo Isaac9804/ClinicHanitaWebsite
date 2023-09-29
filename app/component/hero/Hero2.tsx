@@ -3,6 +3,7 @@ import Image from "next/image";
 import Doctor from "/public/Doctor.png";
 import Background from "/public/background.svg";
 import Line from "/public/Line.svg";
+import Link from "next/link";
 
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
@@ -43,11 +44,7 @@ function Hero2() {
                   To provide patient-centered healthcare with excellence in
                   quality, service and access.
                 </p>
-                <Image
-                  src={Line}
-                  alt=""
-                  className="  md:h-[50px] xl:h-auto "
-                />
+                <Image src={Line} alt="" className="  md:h-[50px] xl:h-auto " />
                 <h3 className="text-white py-2 uppercase w-fit xl:text-3xl xl:py-5">
                   Business Hours:
                 </h3>
@@ -57,7 +54,17 @@ function Hero2() {
                   <li>SUNDAY (10AM -9PM)</li>
                   <li>PUBLIC HOLIDAY (10AM - 9PM)</li>
                 </ul>
-                <a href="https://wa.me/60132401055?">
+                <Link legacyBehavior href="https://wa.me/60132401055?">
+                  <button className="flex items-center gap-2 rounded-full animate-bounce bg-green-600 hover:bg-green-500 hover:shadow-md text-white px-5  mt-5 py-3  ">
+                    <div className="text-white text-base xl:text-3xl  ">
+                      <AiOutlineWhatsApp />
+                    </div>
+                    <h3 className="text-xs md:text-sm xl:text-lg">
+                      CONTACT US
+                    </h3>
+                  </button>
+                </Link>
+                {/* <a href="https://wa.me/60132401055?">
                   <div className="inline-flex border-2   border-white rounded-full bg-green-600  my-5  items-center gap-2 px-3 py-1 w-fit xl:my-10 xl:gap-3 xl:py-2 xl:px-5 ">
                     <div className="text-white text-base xl:text-3xl  ">
                       <AiOutlineWhatsApp />
@@ -66,7 +73,7 @@ function Hero2() {
                       CONTACT US
                     </h2>
                   </div>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

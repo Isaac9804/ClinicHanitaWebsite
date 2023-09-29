@@ -9,9 +9,9 @@ function Services() {
   return (
     <main className="max-w-[1440px] mx-auto w-10/12">
       <div className="">
-        <h3 className="text-slate-800 pt-20 pb-10 text-center text-lg font-bold  md:text-2xl md:pt-20 md:pb-16 lg:text-4xl xl:pt-40 xl:pb-28">
+        <h1 className="text-slate-800 pt-20 pb-10 text-center text-lg font-bold md:text-2xl md:pt-40 md:pb-28 lg:text-4xl">
           SERVICES
-        </h3>
+        </h1>
       </div>
       <div className=" mx-auto overflow-hidden rounded-2xl drop-shadow-lg  bg-white ">
         <div>

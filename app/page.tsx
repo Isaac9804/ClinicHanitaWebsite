@@ -43,7 +43,7 @@ export default function Home() {
 
       {/* ----------------------Promotion Section--------------------------------------- */}
 
-      {/* <Promotion1 /> */}
+      <Promotion1 />
 
       {/* ----------------------Services Section--------------------------------------- */}
 
