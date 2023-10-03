@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Navbar1 from "../Navbar1";
-import GroupPicture from "@/public/KlinikGroup.jpg.png";
+import GroupPicture from "@/public/KlinikGroup.png";
+import Hanita from "@/public/Dr hanita .png";
 
 import { BsLinkedin, BsFacebook } from "react-icons/bs";
 import { HiMiniInformationCircle } from "react-icons/hi2";
@@ -153,7 +154,8 @@ function AboutPage() {
               <div className=" lg:flex lg:w-fit">
                 <div className="relative h-[500px] md:h-[900px] lg:h-full lg:w-1/2 xl:w-2/5">
                   <Image
-                    src="https://images.unsplash.com/photo-1651008376811-b90baee60c1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                    // src="https://images.unsplash.com/photo-1651008376811-b90baee60c1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                    src={Hanita}
                     alt=""
                     // width={3000}
                     // height={3000}
