@@ -49,17 +49,17 @@ function Services() {
             </div> */}
           </div>
           {/* ----------------------Info Section--------------------------------------- */}
-          <div className="text-center w-8/12 mx-auto space-y-10 py-10">
+          <div className="text-center w-8/12 mx-auto  py-10">
             <h3 className="font-bold text-lg text-center md:text-2xl lg:text-4xl">
               STATE OF THE ART MEDICAL SERVICE
             </h3>
-            <p className=" text-xs md:text-base  xl:text-xl">
+            <p className=" text-xs md:text-base  xl:text-xl py-10 ">
               "To provide exceptional, patient-centered healthcare services with
               a focus on quality, compassion, and innovation, while promoting
               wellness, preventive care, and community engagement."
             </p>
             <Link legacyBehavior href="/component/navbar/servicePage">
-              <button className="  rounded-full bg-blue-700 hover:bg-blue-500 hover:shadow-md text-white px-5  mt-5 py-3  ">
+              <button className="  rounded-full bg-blue-700 hover:bg-blue-500 hover:shadow-md text-white px-5  py-3  ">
                 <h3 className="text-xs md:text-base xl:text-lg">
                   MORE SERVICES
                 </h3>

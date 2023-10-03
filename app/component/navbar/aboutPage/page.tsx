@@ -141,7 +141,7 @@ function AboutPage() {
               GET TO KNOW OUR CEO
             </h1>
             <div className=" mx-auto shadow-xl bg-slate-300   lg:flex   rounded-xl  overflow-hidden  xl:h-[700px]  mb-10">
-              <div className="relative h-[400px] md:h-[720px]  lg:w-1/2 xl:w-1/3  ">
+              {/* <div className="relative h-[400px] md:h-[720px]  lg:w-1/2 xl:w-1/3  ">
                 <Image
                   className="object-center transform transition duration-500 hover:scale-110"
                   src="https://images.unsplash.com/photo-1651008376811-b90baee60c1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
@@ -149,48 +149,64 @@ function AboutPage() {
                   layout="fill"
                   objectFit="cover"
                 />
-              </div>
-
-              <div className="p-7  flex-1  md:p-16 xl:p-24">
-                <div className="pb-5 lg:pb-5">
-                  <h1 className=" text-lg font-bold   md:text-xl xl:text-4xl">
-                    Dr Hanita Abdul Wahid
-                  </h1>
-                  <p className="text-xs font-bold text-gray-400 lg:text-xs">
-                    Doctor and founder of Klinik Hanita
-                  </p>
+              </div> */}
+              <div className=" lg:flex lg:w-fit">
+                <div className="relative h-[500px] md:h-[900px] lg:h-full lg:w-1/2 xl:w-2/5">
+                  <Image
+                    src="https://images.unsplash.com/photo-1651008376811-b90baee60c1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                    alt=""
+                    // width={3000}
+                    // height={3000}
+                    // sizes="100vw"
+                    layout="fill"
+                    objectFit="cover"
+                  ></Image>
                 </div>
-                <p className="text-xs md:text-base  xl:text-lg">
-                  Dr. Hanita is a highly qualified medical professional with a
-                  strong educational background and years of experience in the
-                  field of medicine. She graduated in the year 1995 from the
-                  prestigious University of Malaya, where she earned her
-                  Bachelor of Medical and Bachelor of Surgery degrees. Doctor
-                  Hanita embarked on her professional journey by serving at
-                  Kuala Lumpur Hospital (HKL) starting in 1995 until 1999. Dr.
-                  Hanita continued to make significant contributions to the
-                  field of healthcare. From 1999 to 2001, she took on a pivotal
-                  role by working with the Minister of Health.
-                </p>
-                <div className="flex flex-col gap-1 list-none md:gap-3 pt-5 lg:py-10 lg:space-y-0 ">
-                  <li>
-                    <a
-                      className="text-base flex gap-1 items-center md:text-2xl md:gap-3 transform transition duration-500 hover:scale-105"
-                      href=""
-                    >
-                      <FaLinkedin />
-                      <h3 className="text-xs font-bold md:text-lg">LinkedIn</h3>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-base flex gap-1 items-center  md:text-2xl md:gap-3 transform transition duration-500 hover:scale-105"
-                      href=""
-                    >
-                      <FaFacebookSquare />
-                      <h3 className="text-xs font-bold md:text-lg">Facebook</h3>
-                    </a>
-                  </li>
+                <div className="p-7  flex-1  md:p-16 xl:p-24">
+                  <div className="pb-5 lg:pb-5">
+                    <h1 className=" text-lg font-bold   md:text-xl xl:text-4xl">
+                      Dr Hanita Abdul Wahid
+                    </h1>
+                    <p className="text-xs font-bold text-gray-400 lg:text-xs">
+                      Doctor and founder of Klinik Hanita
+                    </p>
+                  </div>
+                  <p className="text-xs md:text-base  xl:text-lg">
+                    Dr. Hanita is a highly qualified medical professional with a
+                    strong educational background and years of experience in the
+                    field of medicine. She graduated in the year 1995 from the
+                    prestigious University of Malaya, where she earned her
+                    Bachelor of Medical and Bachelor of Surgery degrees. Doctor
+                    Hanita embarked on her professional journey by serving at
+                    Kuala Lumpur Hospital (HKL) starting in 1995 until 1999. Dr.
+                    Hanita continued to make significant contributions to the
+                    field of healthcare. From 1999 to 2001, she took on a
+                    pivotal role by working with the Minister of Health.
+                  </p>
+                  <div className="flex flex-col gap-1 list-none md:gap-3 pt-5 lg:py-10 lg:space-y-0 ">
+                    <li>
+                      <a
+                        className="text-base flex gap-1 items-center md:text-2xl md:gap-3 transform transition duration-500 hover:scale-105"
+                        href=""
+                      >
+                        <FaLinkedin />
+                        <h3 className="text-xs font-bold md:text-lg">
+                          LinkedIn
+                        </h3>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-base flex gap-1 items-center  md:text-2xl md:gap-3 transform transition duration-500 hover:scale-105"
+                        href=""
+                      >
+                        <FaFacebookSquare />
+                        <h3 className="text-xs font-bold md:text-lg">
+                          Facebook
+                        </h3>
+                      </a>
+                    </li>
+                  </div>
                 </div>
               </div>
             </div>

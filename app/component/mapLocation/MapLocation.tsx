@@ -6,14 +6,14 @@ function MapLocation() {
     <div className="hidden lg:block">
       <div className="   max-w-[1920px] text-center mx-auto ">
         <div className=" text-purple text-2xl  mb-10 ">
-          <FaLocationDot className=" text-purple lg:text-4xl xl:text-6xl mx-auto  " />
-          <h1 className=" text-purple  font-black tracking-widest  lg:text-4xl lg:py-5 xl:text-6xl xl:py-10">
+          {/* <FaLocationDot className=" text-purple lg:text-4xl xl:text-6xl mx-auto  " /> */}
+          <h1 className="text-slate-800 pt-20 pb-10 text-center text-lg font-bold md:text-2xl md:pt-40 md:pb-28 lg:text-4xl">
             LOCATION
           </h1>
-          <p className="text-xs px-10  mx-auto leading-loose lg:text-lg lg:max-w-4xl xl:text-2xl">
+          {/* <p className="text-xs px-10  mx-auto leading-loose lg:text-lg lg:max-w-4xl xl:text-2xl">
             NO. 21, JALAN PINGGIRAN PUTRA 4A/14, DESA PINGGIRAN PUTRA, 43000
             KAJANG
-          </p>
+          </p> */}
         </div>
       </div>
       <iframe

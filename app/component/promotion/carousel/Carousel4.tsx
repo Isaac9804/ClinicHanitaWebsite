@@ -86,33 +86,33 @@ export const Carousel4 = () => {
               </button>
             </div>
           </div>
-          <div className="absolute bottom-4 right-0 left-0">
-            <div className="flex items-center justify-center gap-2">
-              {slides1.map((_: any, id: number) => (
-                <div
-                  key={id}
-                  className={`
-              transition-all w-1 h-1 lg:w-3 lg:h-3 bg-white rounded-full
-              ${curr === id ? "p-1 lg:p-2" : "bg-opacity-50"}
-            `}
-                />
-              ))}
-            </div>
-          </div>
         </div>
       </div>
-      <div className="  w-8/12 text-center mx-auto lg:p-10 lg:w-10/12">
+      <div className="  w-8/12 text-center mx-auto md:p-10 xl:p-20 lg:w-10/12">
+        <div className=" pt-5">
+          <div className="flex items-center justify-center gap-2">
+            {slides1.map((_: any, id: number) => (
+              <div
+                key={id}
+                className={`
+              transition-all w-2 h-2 lg:w-3 lg:h-3 bg-blue-500 rounded-full
+              ${curr === id ? "p-1.5 lg:p-2.5" : "bg-opacity-50"}
+            `}
+              />
+            ))}
+          </div>
+        </div>
         <div>
-          <h3 className="py-10 font-bold text-lg md:text-2xl lg:text-4xl">
+          <h3 className="py-5 font-bold text-lg text-center md:text-2xl lg:text-4xl">
             {slides1[curr].title}
           </h3>
         </div>
         <div className=" text-xs md:text-base  xl:text-xl ">
           {slides1[curr].info}
         </div>
-        <div className=" py-10 flex flex-col mx-auto w-fit">
+        <div className=" py-5 flex flex-col mx-auto w-fit items-center">
           <Link legacyBehavior href={slides1[curr].whatsapp}>
-            <button className="  rounded-full bg-blue-700 hover:bg-blue-500 hover:shadow-md text-white px-5  mt-5 py-3 ">
+            <button className=" w-fit rounded-full bg-blue-700 hover:bg-blue-500 hover:shadow-md text-white px-5  mt-5 py-3 ">
               <h3 className="text-xs md:text-base xl:text-lg">BOOK NOW</h3>
             </button>
           </Link>
