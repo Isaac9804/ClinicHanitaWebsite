@@ -2,12 +2,14 @@
 
 import "@/app/globals.css";
 import React from "react";
+import Link from "next/link";
 import {
   FaFacebookSquare,
   FaLinkedin,
   FaInstagram,
   FaTwitter,
   FaYoutube,
+  FaTiktok,
 } from "react-icons/fa";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
@@ -60,15 +62,35 @@ function Footer1() {
             Location
           </h1>
           <ul className="text-xs ">
-            <a href="https://maps.app.goo.gl/itLgvzVXSgd3wPxS6">
-              <li className="pb-3 flex gap-4 md:block md:text-xs md:pb-7 xl:text-lg xl:pb-12">
-                <BsArrowUpRightCircle className="text-6xl md:hidden" />
-                <p>
-                  21, Jalan Pinggiran Putra 4A/14, Desa Pingggiran Putra, 43000
-                  Kajang, Selangor
-                </p>
-              </li>
-            </a>
+            <div className="hover:cursor-pointer">
+              <Link
+                legacyBehavior
+                href="https://maps.app.goo.gl/itLgvzVXSgd3wPxS6"
+              >
+                <li className="pb-3 flex gap-4 md:block md:text-xs md:pb-7 xl:text-lg xl:pb-12 items-center">
+                  <BsArrowUpRightCircle className="text-6xl md:hidden" />
+                  <p>
+                    21, Jalan Pinggiran Putra 4A/14, Desa Pingggiran Putra,
+                    43000 Kajang, Selangor
+                  </p>
+                </li>
+              </Link>
+            </div>
+            <div className="hover:cursor-pointer">
+              <Link
+                legacyBehavior
+                href="https://maps.app.goo.gl/qLoogPkyZWLSXGz38"
+              >
+                <li className="pb-3 flex gap-4 md:block md:text-xs md:pb-7 xl:text-lg xl:pb-12 items-center">
+                  <BsArrowUpRightCircle className="text-6xl md:hidden" />
+                  <p>
+                    NO10-G Giverny Walk, Jalan Sunsuria, Bandar Sunsuria, 43900
+                    Sepang, Selangor
+                  </p>
+                </li>
+              </Link>
+            </div>
+
             {/* <a href="https://maps.app.goo.gl/itLgvzVXSgd3wPxS6">
               <li className="pb-3 flex gap-2 md:block md:text-xs md:pb-7 xl:text-lg">
                 <BsArrowUpRightCircle className="text-4xl md:hidden" />
@@ -93,22 +115,31 @@ function Footer1() {
             Follow Us On
           </h3>
           <div className="flex gap-2 py-5 text-2xl justify-center md:text-4xl xl:text-6xl md:py-10 md:gap-5">
-            <a href="#">
+            <Link legacyBehavior href="https://m.facebook.com/KlinikHanitaDPP">
               <FaFacebookSquare />
-            </a>
-            <a href="#">
+            </Link>
+            <Link
+              legacyBehavior
+              href="https://www.tiktok.com/@klinikhanita?_t=8gESQiRx74L&_r=1"
+            >
+              <FaTiktok />
+            </Link>
+            {/* <Link legacyBehavior href="#">
               <FaTwitter />
-            </a>
-            <a href="#">
+            </Link> */}
+            {/* <Link legacyBehavior href="#">
               <FaYoutube />
-            </a>
-            <a href="#">
+            </Link> */}
+            <Link
+              legacyBehavior
+              href="https://instagram.com/klinikhanita?igshid=MzRlODBiNWFlZA=="
+            >
               <FaInstagram />
-            </a>
+            </Link>
           </div>
           <p className="text-xxs text-center w-1/2 md:text-xs  xl:text-lg  lg:w-1/4 mx-auto pb-16">
-            Copyright© 1995-2023 Klinik Hanita. All rights reserved. Hanita
-            Group (HG) Sdn. Bhd. 200301026766 (629186-D).
+            Copyright© 2007 Klinik Hanita. All rights reserved. HANITA GROUP
+            SDN. BHD 202301032320 (1526243-K)).
           </p>
         </div>
       </div>

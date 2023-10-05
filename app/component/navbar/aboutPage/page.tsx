@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Navbar1 from "../Navbar1";
 import GroupPicture from "@/public/KlinikGroup.png";
 import Hanita from "@/public/Dr hanita .png";
@@ -8,7 +9,7 @@ import { BsLinkedin, BsFacebook } from "react-icons/bs";
 import { HiMiniInformationCircle } from "react-icons/hi2";
 import { IoIosEye } from "react-icons/io";
 import { TbTargetArrow } from "react-icons/tb";
-import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare, FaLinkedin, FaInstagram } from "react-icons/fa";
 import "@/app/globals.css";
 import TeamCard from "./TeamCard";
 import Footer1 from "../../footer/Footer1";
@@ -187,26 +188,26 @@ function AboutPage() {
                   </p>
                   <div className="flex flex-col gap-1 list-none md:gap-3 pt-5 lg:py-10 lg:space-y-0 ">
                     <li>
-                      <a
+                      <Link
                         className="text-base flex gap-1 items-center md:text-2xl md:gap-3 transform transition duration-500 hover:scale-105"
-                        href=""
+                        href="https://instagram.com/klinikhanita?igshid=MzRlODBiNWFlZA=="
                       >
-                        <FaLinkedin />
+                        <FaInstagram />
                         <h3 className="text-xs font-bold md:text-lg">
-                          LinkedIn
+                          Instagram
                         </h3>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-base flex gap-1 items-center  md:text-2xl md:gap-3 transform transition duration-500 hover:scale-105"
-                        href=""
+                        href="https://m.facebook.com/KlinikHanitaDPP"
                       >
                         <FaFacebookSquare />
                         <h3 className="text-xs font-bold md:text-lg">
                           Facebook
                         </h3>
-                      </a>
+                      </Link>
                     </li>
                   </div>
                 </div>

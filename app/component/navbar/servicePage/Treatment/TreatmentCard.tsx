@@ -9,59 +9,79 @@ const whatsappNumber = "60132401055";
 const treatments = [
   {
     id: 1,
-    name: " Routine Health Examinations and Check-ups:    ",
+    name: " CONSULTATION  ",
     img: "https://img.freepik.com/free-photo/asian-female-physician-consulting-woman-office_1098-20395.jpg?",
     list: (
       <div>
         <li className="list-none">
-          <ul>1. Adult Health Examination</ul>
-          <ul>2. Children Health Examination</ul>
-          <ul>3. GDL / PSV Medical Check-up</ul>
-          <ul>4. Government / Private Job Medical Check-up</ul>
-          <ul>5. Hajj Medical Check-up</ul>
-          <ul>6. IPTA / IPTS Medical Check-up</ul>
-          <ul>7. Medical Check-up Routine</ul>
-          <ul>8. Pre-Formema Medical Check-up</ul>
-          <ul>9. Pregnant Mother Examination & 2D Ultrasound</ul>
+          <ul>1. Health Screening</ul>
+          <ul>2. Acute Illness (URTI, Diarrhea, etc)</ul>
+          <ul>3. Chronic Illness (Diabetes, Hypertensions)</ul>
+          <ul>4. Emergency (Injury, MVA, etc)</ul>
+          <ul>5. Family Planning</ul>
+          <ul>6. Antenatal Check-Up</ul>
+          <ul>7. Medical Check-Up</ul>
+          <ul>8. GDL/PSV Check-Up</ul>
+          <ul>9. University Check-Up</ul>
+          <ul>10. Pre-FOMEMA Check-Up</ul>
+          <ul>11. Pre-Employment Check-Up</ul>
+          <ul>12. Hajj Medical Check-Up</ul>
+          <ul>13. Medication</ul>
         </li>
       </div>
     ),
     whatsapp:
       "https://wa.me/" +
       whatsappNumber +
-      "?text=Hi Im interested in the Routine Health Examinations and Check-ups Treatment Category.",
+      "?text=Hi, could you provide more information.",
   },
   {
     id: 2,
-    name: " Immunizations and Vaccinations:   ",
+    name: " Lab Investigation   ",
     img: "https://img.freepik.com/free-photo/young-doctor-is-holding-hypodermic-syringe-with-vaccine-vial-rubber-gloves-gray-wall_1150-21803.jpg?",
     list: (
       <div>
         <li className="list-none">
-          <ul>1. Children and Adults Immunizations</ul>
-          <ul>2. Hajj & Umrah Injections</ul>
-          <ul>3. Typhoid Injection</ul>
+          <ul>1. Blood Test</ul>
+          <ul>- Promo A</ul>
+          <ul>- Promo B</ul>
+          <ul>- Promo Cancer (Women & Men)</ul>
+          <ul>- Thyroid Screening</ul>
+          <ul>- Thyroid Autoimmune Special</ul>
+          <ul>- Renal Profile</ul>
+          <ul>- Thalassemia Screening</ul>
+          <ul>- Arthritis Studies</ul>
+          <ul>- Coronary Risk Studies</ul>
+          <ul>- Diabetes Studies</ul>
+          <ul>- Antenatal Screen 4KB & HIV</ul>
+          <ul>- Menstrual Cycle Studies</ul>
+          <ul>- MGTT</ul>
+          <ul>2. Influenza, Covid 19, RSV</ul>
         </li>
       </div>
     ),
     whatsapp:
       "https://wa.me/" +
       whatsappNumber +
-      "?text=Hi Im interested in the Immunizations and Vaccinations Treatment Category.",
+      "?text=Hi Im interested in the Lab Investigation.",
   },
   {
     id: 3,
-    name: " Diagnostic Tests and Screenings:",
+    name: "Procedure",
     img: "https://img.freepik.com/free-photo/coronavirus-blood-samples-assortment-lab_23-2149107255.jpg?",
     list: (
       <div>
         <li className="list-none">
-          <ul>1. COVID-19 Screening</ul>
-          <ul>2. Influenza Test / Dengue / Full Blood Count</ul>
-          <ul>3. Pap Smear</ul>
-          <ul>4. Urine Analysis</ul>
-          <ul>5. X-Ray</ul>
+          <ul>1. Pap Smear</ul>
+          <ul>2. Would Dressing</ul>
+          <ul>3. STO</ul>
+          <ul>4. Small Surgery</ul>
+          <ul>5. Diabetic Foot Dressing</ul>
           <ul>6. ECG</ul>
+          <ul>7. Nebuliser / Oxygen</ul>
+          <ul>8. X-Ray</ul>
+          <ul>9. Ultrasound</ul>
+          <ul>10. Ear Syringe</ul>
         </li>
       </div>
     ),
@@ -72,30 +92,34 @@ const treatments = [
   },
   {
     id: 4,
-    name: " Medical Treatments and Procedures:",
+    name: " immunization",
     img: "https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     list: (
       <div>
         <li className="list-none">
-          <ul>1. Circumcision for Baby Girls only</ul>
-          <ul>2. Depo Provera Injection</ul>
-          <ul>3. Dressing</ul>
-          <ul>4. Small Surgery</ul>
-          <ul>5. Treatment Of High Blood Pressure / Diabetes / Gout</ul>
-          <ul>6. Nebuliser/Oxygen</ul>
+          <ul>1. Meningococcal</ul>
+          <ul>2. Influenza</ul>
+          <ul>3. Pneumococcal</ul>
+          <ul>4. Typhoid</ul>
+          <ul>5. Measles</ul>
+          <ul>6. MMR</ul>
+          <ul>7. DTaP-IPV-Hep B- Hib</ul>
+          <ul>8. Hepatitis B</ul>
+          <ul>9. Depo Provera</ul>
+          <ul>10. Hajj and Umrah Vaccination</ul>
         </li>
       </div>
     ),
     whatsapp:
       "https://wa.me/" +
       whatsappNumber +
-      "?text=Hi Im interested in the Medical Treatments and Procedures Treatment Category.",
+      "?text=Hi Im interested in the Immunization.",
   },
 ];
 
 function TreatmentCard() {
   return (
-    <main className=" sm:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 ">
+    <main className=" sm:grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 ">
       {treatments.map((treatment) => (
         <div
           key={treatment.id}
@@ -113,7 +137,7 @@ function TreatmentCard() {
 
           <div className="p-5 flex flex-col justify-between md:h-[500px] lg:h-[650px]   2xl:h-[550px] xl:p-7">
             <div>
-              <h2 className="font-bold text-lg  lg:text-xl pb-5">
+              <h2 className="font-bold text-lg uppercase  lg:text-xl pb-5">
                 {treatment.name}
               </h2>
               <h3 className="text-xs md:text-base ">{treatment.list}</h3>

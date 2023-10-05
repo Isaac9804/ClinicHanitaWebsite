@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import xray from "@/public/Services/Xray.png";
 import ultrasound from "@/public/Services/ultra.png";
-import consult from "@/public/Services/consult.png";
+import consult from "@/public/Services/consult1.png";
 import Link from "next/link";
 
 function Services() {
@@ -24,7 +24,13 @@ function Services() {
               </h3>
             </div>
             <div className="relative h-[200px] md:h-auto md:w-1/3 ">
-              <Image src={ultrasound} alt="" layout="fill" objectFit="cover" />
+              <Image
+                src={ultrasound}
+                alt=""
+                layout="fill"
+                objectFit="cover"
+                className="scale-x-[-1]"
+              />
               <h3 className="absolute bottom-0 right-0 p-3 text-white text-xs">
                 ULTRASOUND
               </h3>
@@ -58,13 +64,15 @@ function Services() {
               a focus on quality, compassion, and innovation, while promoting
               wellness, preventive care, and community engagement."
             </p>
-            <Link legacyBehavior href="/component/navbar/servicePage">
-              <button className="  rounded-full bg-blue-700 hover:bg-blue-500 hover:shadow-md text-white px-5  py-3  ">
-                <h3 className="text-xs md:text-base xl:text-lg">
-                  MORE SERVICES
-                </h3>
-              </button>
-            </Link>
+            <div className="py-10">
+              <Link legacyBehavior href="/component/navbar/servicePage">
+                <button className="  rounded-full bg-blue-700 hover:bg-blue-500 hover:shadow-md text-white px-5  py-3  ">
+                  <h3 className="text-xs md:text-base xl:text-lg">
+                    MORE SERVICES
+                  </h3>
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

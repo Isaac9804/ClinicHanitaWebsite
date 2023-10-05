@@ -6,38 +6,42 @@ import Link from "next/link";
 import Image from "next/image";
 import Transition from "rsuite/esm/Animation/Transition";
 
+import Promotion1 from "@/public/Promotions/Promotion1.png";
+import Promotion2 from "@/public/Promotions/Promotion2.png";
+import Promotion3 from "@/public/Promotions/Promotion3.png";
+
 const whatsappNumber = "60132401055";
 
 const slides1 = [
   {
     id: 1,
-    title: "Promotion 1",
-    img: "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/medical-and-health-services-instagram-post-ad-design-template-2e03fd7748bb65dddd1f924a7deb50bf_screen.jpg?ts=1609194309",
-    info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula libero eget justo fringilla, in bibendum elit laoreet. Nullam nec dolor ac lorem fringilla accumsan.",
+    title: "FOMEMA CHECK UP",
+    img: Promotion1,
+    info: "Register your foreign worker with our clinic now!",
     whatsapp:
       "https://wa.me/" +
       whatsappNumber +
-      "?text=Hi Im interested in the 40% off for health and medical services.",
+      "?text=Hi Im interested in the FOMEMA CHECK UP.",
   },
   {
     id: 2,
-    title: "Promotion 2",
-    img: "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/medical-health-banner-instagram-post-advertis-design-template-701ee14b702b5cdbd33c4ed8e21e81ba_screen.jpg?ts=1610149059",
-    info: "Praesent pulvinar euismod sapien, vel volutpat libero aliquam quis. Fusce ac urna nec ipsum facilisis cursus. Etiam ultrices, velit at convallis hendrerit, tortor quam fringilla neque.",
+    title: "TYPHOID VACCINE",
+    img: Promotion2,
+    info: "Compulsory for food handler, get your vaccine now!",
     whatsapp:
       "https://wa.me/" +
       whatsappNumber +
-      "?text=Hi I reall want to meet the hot doctor",
+      "?text=Hi I'm interested in the TYPHOID VACCINE",
   },
   {
     id: 3,
-    title: "Promotion3",
-    img: "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/medical-care-banner-instagram-post-design-template-74b49e8f24ed8bb4f8fe0945f5b13ab9_screen.jpg?ts=1601912788",
-    info: "Suspendisse potenti. Vivamus sed est vel ex accumsan cursus. Phasellus efficitur metus non felis pharetra, sed ornare nunc rhoncus.",
+    title: "INFLUENZA VACCINES ",
+    img: Promotion3,
+    info: "Get vaccinated! and provide protection against severe illness.",
     whatsapp:
       "https://wa.me/" +
       whatsappNumber +
-      "?text=Hi I need help with my cake eating disorder Thanks",
+      "?text=Hi I'm interested in the INFLUENZA VACCINE.",
   },
 ];
 
@@ -73,7 +77,7 @@ export const Carousel4 = () => {
               onClick={prev}
               className=" bg-white/0 h-full items-center flex place-items-cente"
             >
-              <button className="p-1 rounded-full shadow bg-white/50 text-purple hover:bg-white text-2xl lg:text-5xl">
+              <button className="p-1 rounded-full shadow-xl bg-white text-blue-500 hover:bg-white text-2xl lg:text-5xl">
                 <BsChevronLeft stroke-width="1" />
               </button>
             </div>
@@ -81,7 +85,7 @@ export const Carousel4 = () => {
               onClick={next}
               className=" bg-white/0 h-full items-center flex place-items-cente"
             >
-              <button className="p-1 rounded-full shadow bg-white/50 text-purple hover:bg-white text-2xl lg:text-5xl">
+              <button className="p-1 rounded-full shadow-xl bg-white text-blue-500 hover:bg-white text-2xl lg:text-5xl">
                 <BsChevronRight stroke-width="1" />
               </button>
             </div>
@@ -116,7 +120,7 @@ export const Carousel4 = () => {
               <h3 className="text-xs md:text-base xl:text-lg">BOOK NOW</h3>
             </button>
           </Link>
-          <Link legacyBehavior href="#">
+          <Link legacyBehavior href="/component/navbar/servicePage">
             <button className="  px-5  mt-5 py-3 underline ">
               <h3 className=" text-xs md:text-base xl:text-lg">
                 MORE PROMOTION

@@ -38,7 +38,7 @@ function ServicePage() {
 
           <div>
             <Dropdown
-              title="LAB TEST"
+              title="LAB INVESTIGATION"
               className="relative transform transition duration-500 hover:scale-110"
             >
               <div className="absolute right-0  top-full min-w-full w-max bg-white shadow-md mt-10 rounded-xl">
