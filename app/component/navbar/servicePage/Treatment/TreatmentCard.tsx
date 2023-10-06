@@ -35,36 +35,36 @@ const treatments = [
       whatsappNumber +
       "?text=Hi, could you provide more information.",
   },
-  {
-    id: 2,
-    name: " Lab Investigation   ",
-    img: "https://img.freepik.com/free-photo/young-doctor-is-holding-hypodermic-syringe-with-vaccine-vial-rubber-gloves-gray-wall_1150-21803.jpg?",
-    list: (
-      <div>
-        <li className="list-none">
-          <ul>1. Blood Test</ul>
-          <ul>- Promo A</ul>
-          <ul>- Promo B</ul>
-          <ul>- Promo Cancer (Women & Men)</ul>
-          <ul>- Thyroid Screening</ul>
-          <ul>- Thyroid Autoimmune Special</ul>
-          <ul>- Renal Profile</ul>
-          <ul>- Thalassemia Screening</ul>
-          <ul>- Arthritis Studies</ul>
-          <ul>- Coronary Risk Studies</ul>
-          <ul>- Diabetes Studies</ul>
-          <ul>- Antenatal Screen 4KB & HIV</ul>
-          <ul>- Menstrual Cycle Studies</ul>
-          <ul>- MGTT</ul>
-          <ul>2. Influenza, Covid 19, RSV</ul>
-        </li>
-      </div>
-    ),
-    whatsapp:
-      "https://wa.me/" +
-      whatsappNumber +
-      "?text=Hi Im interested in the Lab Investigation.",
-  },
+  // {
+  //   id: 2,
+  //   name: " Lab Investigation   ",
+  //   img: "https://img.freepik.com/free-photo/young-doctor-is-holding-hypodermic-syringe-with-vaccine-vial-rubber-gloves-gray-wall_1150-21803.jpg?",
+  //   list: (
+  //     <div>
+  //       <li className="list-none">
+  //         <ul>1. Blood Test</ul>
+  //         <ul>- Promo A</ul>
+  //         <ul>- Promo B</ul>
+  //         <ul>- Promo Cancer (Women & Men)</ul>
+  //         <ul>- Thyroid Screening</ul>
+  //         <ul>- Thyroid Autoimmune Special</ul>
+  //         <ul>- Renal Profile</ul>
+  //         <ul>- Thalassemia Screening</ul>
+  //         <ul>- Arthritis Studies</ul>
+  //         <ul>- Coronary Risk Studies</ul>
+  //         <ul>- Diabetes Studies</ul>
+  //         <ul>- Antenatal Screen 4KB & HIV</ul>
+  //         <ul>- Menstrual Cycle Studies</ul>
+  //         <ul>- MGTT</ul>
+  //         <ul>2. Influenza, Covid 19, RSV</ul>
+  //       </li>
+  //     </div>
+  //   ),
+  //   whatsapp:
+  //     "https://wa.me/" +
+  //     whatsappNumber +
+  //     "?text=Hi Im interested in the Lab Investigation.",
+  // },
   {
     id: 3,
     name: "Procedure",
@@ -119,7 +119,8 @@ const treatments = [
 
 function TreatmentCard() {
   return (
-    <main className=" sm:grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 ">
+    <main className=" sm:grid grid-cols-2 lg:grid-cols-3 gap-10 ">
+       {/* 2xl:grid-cols-4  */}
       {treatments.map((treatment) => (
         <div
           key={treatment.id}
@@ -135,7 +136,7 @@ function TreatmentCard() {
             />
           </div>
 
-          <div className="p-5 flex flex-col justify-between md:h-[500px] lg:h-[650px]   2xl:h-[550px] xl:p-7">
+          <div className="p-5 flex flex-col justify-between md:h-[500px] lg:h-[650px]   2xl:h-[550px] xl:p-10">
             <div>
               <h2 className="font-bold text-lg uppercase  lg:text-xl pb-5">
                 {treatment.name}
