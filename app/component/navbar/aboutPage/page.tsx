@@ -163,6 +163,7 @@ function AboutPage() {
                     // sizes="100vw"
                     layout="fill"
                     objectFit="cover"
+                    
                   ></Image>
                 </div>
                 <div className="p-7  flex-1  md:p-16 xl:p-24">
