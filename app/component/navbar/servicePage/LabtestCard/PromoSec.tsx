@@ -2,6 +2,9 @@ import React from "react";
 import Image from "next/image";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
+import Promo_A from "@/public/Services/Promo Package/Promo A.png";
+import Promo_B from "@/public/Services/Promo Package/Promo B.png";
+import Promo_C from "@/public/Services/Promo Package/Promo C.png";
 
 const whatsappNumber = "60132401055";
 
@@ -9,7 +12,7 @@ const treatments = [
   {
     id: 1,
     name: " Promo A   ",
-    img: "https://img.freepik.com/free-photo/coronavirus-blood-samples-assortment-lab_23-2149107254.jpg?",
+    img: Promo_A ,
     list: "Full Blood Count, Kidney Function, Liver Function, Blood Sugar, Cholesterol Studies, Uric Acid, HbA1C and Urine Analysis.",
     whatsapp:
       "https://wa.me/" + whatsappNumber + "?text=Hi Im interested in PROMO A.",
@@ -17,7 +20,7 @@ const treatments = [
   {
     id: 2,
     name: " Promo B   ",
-    img: "https://img.freepik.com/free-photo/coronavirus-arrangement-with-blood-samples-vaccine_23-2149107207.jpg?",
+    img: Promo_B,
     list: "Full Blood Count, Kidney Function, Liver Function, Uric Acid, Blood Sugar, Cholesterol Studies, HbA1C, Rapid Plasma Reagent (RPR), Blood Group, Thyroid, VDRL, Hepatitis B (Ag & Ab), Rheumatoid and Urine Analysis.",
     whatsapp:
       "https://wa.me/" + whatsappNumber + "?text=Hi Im interested in PROMO B.",
@@ -25,7 +28,7 @@ const treatments = [
   {
     id: 3,
     name: " Promo Cancer (Women & Men)  ",
-    img: "https://img.freepik.com/free-photo/crop-hands-with-blue-ribbon-near-stethoscope_23-2147738469.jpg?",
+    img: Promo_C,
     list: (
       <li className="list-none">
         <ul>1. Breast Examination</ul>
@@ -50,7 +53,7 @@ function PromoSec() {
           key={treatment2.id}
           className="  my-10 md:my-0 bg-blue-100  overflow-hidden rounded-xl  drop-shadow-md  transform transition duration-500 hover:scale-105"
         >
-          <div className="  relative  h-80">
+          <div className="  relative  h-80 lg:h-[250px] xl:h-[500px]">
             <Image
               className=" "
               src={treatment2.img}
