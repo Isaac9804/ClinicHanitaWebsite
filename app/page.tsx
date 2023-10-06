@@ -28,7 +28,7 @@ export default function Home() {
       <Head>
         <title>KlinikHanita</title>
         <meta name="description" content="Website Klinik Hanita" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/2favicon.ico" />
       </Head>
 
       {/* ----------------------Navbar Section--------------------------------------- */}
