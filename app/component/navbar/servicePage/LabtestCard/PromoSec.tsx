@@ -53,12 +53,12 @@ function PromoSec() {
           key={treatment2.id}
           className="  my-10 md:my-0 bg-blue-100  overflow-hidden rounded-xl  drop-shadow-md  transform transition duration-500 hover:scale-105"
         >
-          <div className="  relative  h-80 lg:h-[250px] xl:h-[500px]">
+          <div className="  relative ">
             <Image
               className=" "
               src={treatment2.img}
               alt=""
-              layout="fill"
+              layout="contain"
               objectFit="cover"
             />
           </div>

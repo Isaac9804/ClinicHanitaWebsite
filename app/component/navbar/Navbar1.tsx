@@ -84,6 +84,11 @@ export default function Navbar1() {
                     <a>Panels</a>
                   </Link>
                 </li>
+                <li className="text-white  hover:text-yellow-300">
+                  <Link legacyBehavior href="/component/navbar/careerPage">
+                    <a>Career</a>
+                  </Link>
+                </li>
                 {/* <li className="text-white  hover:text-yellow-300">
                   <Link legacyBehavior href="/component/navbar/promotionPage">
                     <a>Promotion</a>
