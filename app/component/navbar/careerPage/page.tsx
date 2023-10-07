@@ -156,7 +156,9 @@ const careers = [
 function CareerPage() {
   return (
     <main>
-      <Navbar1 />
+      <div className="sticky top-0 z-10">
+        <Navbar1 />
+      </div>
       <div className="py-12">
         {/* ----------------------About Section--------------------------------------- */}
 
