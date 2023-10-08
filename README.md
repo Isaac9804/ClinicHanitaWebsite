@@ -41,4 +41,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 How to edit pages in website:
 
 HOME:
-1. open 
+1. open [Home](app/page.tsx)
