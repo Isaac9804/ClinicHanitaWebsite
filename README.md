@@ -37,8 +37,17 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
+## Edit Pages in website
+
 
 How to edit pages in website:
 
-HOME:
-1. open [Home](app/page.tsx)
+HOME Page:
+1. Click this >> [Home](app/page.tsx) to edit the Home page.
+2. There are Header, Navbar, Hero, Promotion, Services, Panels, Map Location and Footer Sections.
+3. Hero Section is where the title, image of Dr, operating hours with the whatsapp contact button in present.
+4. To edit Hero Section click this >> [Hero](app/component/hero/Hero2.tsx)
+5. 
+
+//To be continued.....
+
