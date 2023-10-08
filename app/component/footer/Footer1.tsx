@@ -141,6 +141,10 @@ function Footer1() {
             Copyright© 2007 Klinik Hanita. All rights reserved. HANITA GROUP
             SDN. BHD 202301032320 (1526243-K)).
           </p>
+          <p className="text-xxs text-center w-1/2 md:text-xs  xl:text-lg  lg:w-1/4 mx-auto pb-16">
+                        Copyright© 2007 Klinik Hanita. All rights reserved. HANITA GROUP
+                                    SDN. BHD 202301032320 (1526243-K)).
+                                              </p>
         </div>
       </div>
     </footer>

@@ -151,6 +151,71 @@ const careers = [
       </div>
     ),
   },
+  {
+    id: 3,
+    title: "Radiographer",
+    img: career3,
+    emailInfo: "",
+    jobScope: (
+      <div>
+        <ul className="list-decimal  list-inside list">
+          <h1 className="font-bold">JOB SCOPE:</h1>
+          <br></br>
+          <li>
+            <span className="font-bold">Patient Reception:</span>
+            <br></br> Greet and welcome patients and visitors to the clinic.
+            Register new patients, verify and update existing patient
+            information. Able to register panel's patients
+          </li>
+          <li>
+            <span className="font-bold">Appointment Scheduling:</span>
+            <br></br>
+            Schedule patient appointments, consultations, and follow-up visits.
+            Coordinate appointment calendars for healthcare providers.
+          </li>
+          <li>
+            <span className="font-bold">Patient Assistance:</span>
+            <br></br>
+            Assist patients with completing necessary forms and paperwork.
+            Provide information to patients regarding clinic procedures,
+            services, and policies.
+          </li>
+          <li>
+            <span className="font-bold">Medical Records Management:</span>
+            <br></br>
+            Maintain accurate and organized patient records. Ensure compliance
+            with patient confidentiality regulations
+          </li>
+          <li>
+            <span className="font-bold">Billing and Payment Processing:</span>
+            <br></br>
+            Handle patient billing inquiries and payment processing. Verify
+            insurance information and assist with claims processing.
+          </li>
+          <li>
+            <span className="font-bold">Inventory Management:</span>
+            <br></br>
+            Monitor and maintain clinic supplies, including medical and office
+            supplies. Place orders as needed and track inventory levels.
+          </li>
+          <li>
+            <span className="font-bold">Administrative Support:</span>
+            <br></br>
+            Assist healthcare providers and clinic staff with administrative
+            tasks as required. Help with data entry, document preparation, and
+            filing.
+          </li>
+          <li>
+            <span className="font-bold">Cleaning and Sanitization:</span>
+            <br></br>
+            Ensure the cleanliness and hygiene of patient waiting areas and
+            examination rooms. Adhere to infection control and sanitation
+            protocols.
+          </li>
+        </ul>
+      </div>
+    ),
+  },
 ];
 
 function CareerPage() {
