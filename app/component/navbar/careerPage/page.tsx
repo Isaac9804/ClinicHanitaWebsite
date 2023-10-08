@@ -17,6 +17,7 @@ import career2 from "@/public/career/career2.png";
 import career3 from "@/public/career/career3.png";
 import career4 from "@/public/career/career4.png";
 import career5 from "@/public/career/career5.png";
+import career10 from "@/public/career/career10.png";
 
 const emailContact = "mailto:klinikhanita@gmail.com";
 
@@ -24,7 +25,7 @@ const careers = [
   {
     id: 1,
     title: "Clinic Assistant",
-    img: career2,
+    img: career10,
     emailInfo: "",
     jobScope: (
       <div>
