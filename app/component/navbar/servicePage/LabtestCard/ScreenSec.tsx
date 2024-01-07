@@ -3,12 +3,19 @@ import Image from "next/image";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
+import Screening_1 from "@/public/Services/Screening Package/Screening 1.png";
+import Screening_2 from "@/public/Services/Screening Package/Screening 2.png";
+import Screening_3 from "@/public/Services/Screening Package/Screening 3.png";
+import Screening_4 from "@/public/Services/Screening Package/Screening 4.png";
+import Screening_5 from "@/public/Services/Screening Package/Screening 5.png";
+
+
 const whatsappNumber = "60132401055";
 const treatments = [
   {
     id: 1,
     name: " Thyroid Screening  ",
-    img: "https://img.freepik.com/free-photo/endocrinologist-examining-throat-young-woman-clinic-women-with-thyroid-gland-test-endocrinology-hormones-treatment-inflammation-sore-throat_657921-270.jpg?",
+    img: Screening_1 ,
     list: "Thyroid Function Tests (FT3, FT4 TSH)",
     whatsapp:
       "https://wa.me/" +
@@ -18,7 +25,7 @@ const treatments = [
   {
     id: 2,
     name: " Thyroid Autoimmune Special  ",
-    img: "https://img.freepik.com/free-photo/female-doctor-checking-patient-s-mouth_23-2148757388.jpg?",
+    img: Screening_2 ,
     list: "FT3, FT4, TSH, Anti-Thyroid Peroxidase, Anti- Thyroglobulin",
     whatsapp:
       "https://wa.me/" +
@@ -28,7 +35,7 @@ const treatments = [
   {
     id: 3,
     name: " Renal Profile  ",
-    img: "https://img.freepik.com/free-photo/lumbar-pain_1155-10.jpg?",
+    img: Screening_3 ,
     list: "Urea, Creatinine, Calcium, Phosphate, Uric Acid, Sodium, Potassium Chloride, Albumin, eGFR",
     whatsapp:
       "https://wa.me/" +
@@ -38,7 +45,7 @@ const treatments = [
   {
     id: 4,
     name: " Thalassemia Screening  ",
-    img: "https://img.freepik.com/free-photo/high-angle-health-professional-drawing-blood_23-2149404714.jpg?",
+    img: Screening_4 ,
     list: "Ferritin, Hb Analysis",
     whatsapp:
       "https://wa.me/" +
@@ -49,7 +56,7 @@ const treatments = [
   {
     id: 5,
     name: "Antenatal Screen 4KB & HIV ",
-    img: "https://img.freepik.com/free-photo/gynecologist-performing-ultrasound-consultation_23-2149353023.jpg?",
+    img: Screening_5 ,
     list: "FBC, HBsAg & Ab, RPR (VDRL & Titre), Rubella IgG Ab, HIV I&II Ab",
     whatsapp:
       "https://wa.me/" +
