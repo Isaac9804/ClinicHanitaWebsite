@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import Image from "next/image";
 
-import Azreen from "@/public/team/Nurdina Azreen.jpg";
+import Zahirah from "@/public/team/Siti Zahirah.jpg";
 import Qurratu from "@/public/team/Qurratu 'Ain Fadillah.jpg";
 import Aini from "@/public/team/Aini Hidayah.jpg";
 import Syamimi from "@/public/team/Wan Nur Syamimi.jpg";
@@ -12,22 +12,16 @@ import Karmizee from "@/public/team/Karmizee Lyslee.jpg";
 
 const teams = [
   {
-    id: 1,
-    img: Azreen,
-    name: "Nurdina Azreen",
-    position: "Radiographer",
+    id: 3,
+    img: Aini,
+    name: "Aini Hidayah",
+    position: "Pegawai Sumber Manusia",
   },
   {
     id: 2,
     img: Qurratu,
     name: "Qurratu 'Ain Fadillah",
     position: "Juru X-Ray",
-  },
-  {
-    id: 3,
-    img: Aini,
-    name: "Aini Hidayah",
-    position: "Pegawai Sumber Manusia",
   },
   {
     id: 4,
@@ -47,6 +41,13 @@ const teams = [
     name: "Wan Nur Fatin Amirah",
     position: "Pembantu Klinik",
   },
+  {
+    id: 1,
+    img: Zahirah,
+    name: "Siti Zahirah",
+    position: "Pembantu Klinik",
+  },
+  
 ];
 
 function TeamCard() {
