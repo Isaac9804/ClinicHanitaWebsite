@@ -3,13 +3,19 @@ import Image from "next/image";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
+import Medical_1 from "@/public/Services/Medical Package/Medical 1.png";
+import Medical_2 from "@/public/Services/Medical Package/Medical 2.png";
+import Medical_3 from "@/public/Services/Medical Package/Medical 3.png";
+import Medical_4 from "@/public/Services/Medical Package/Medical 4.png";
+import Medical_5 from "@/public/Services/Medical Package/Medical 5.png";
+
 const whatsappNumber = "60132401055";
 
 const treatments = [
   {
     id: 8,
     name: " Arthritis Studies ",
-    img: "https://img.freepik.com/free-photo/elderly-woman-suffering-from-pain-hand-arthritis-old-person-senior-woman-female-suffering-from-pain-home_657921-210.jpg",
+    img: Medical_1 ,
     list: "ESR, FBC, Uric Acid, LE Cells Test, RA Factor, ASOT Titre, ANA (SLE), C Reactive Protein (hs-CRP)",
     whatsapp:
       "https://wa.me/" +
@@ -19,7 +25,7 @@ const treatments = [
   {
     id: 9,
     name: " Coronary Risk Studies ",
-    img: "https://img.freepik.com/free-photo/human-heart-design_1048-1683.jpg?",
+    img: Medical_2 ,
     list: "Lipid Profile, Total Cholesterol, HDL, LDL, TG, Ratio Total/HDL",
     whatsapp:
       "https://wa.me/" +
@@ -29,7 +35,7 @@ const treatments = [
   {
     id: 10,
     name: " Diabetes Studies ",
-    img: "https://img.freepik.com/free-photo/hand-holding-blood-glucose-meter-measuring-blood-sugar-background-is-stethoscope-chart-file_1387-942.jpg?",
+    img: Medical_3 ,
     list: "Glucose, HbA1C",
     whatsapp:
       "https://wa.me/" +
@@ -40,7 +46,7 @@ const treatments = [
   {
     id: 11,
     name: "Menstrual Cycle Studies ",
-    img: "https://img.freepik.com/free-photo/asian-woman-with-menstrual-problems-young-woman-with-stomach-ache-lying-bedlying-bed-holding-her-stomach_609648-1416.jpg?",
+    img: Medical_4,
     list: "FSH, LH, Estradiol, Progesterone",
     whatsapp:
       "https://wa.me/" +
@@ -50,7 +56,7 @@ const treatments = [
   {
     id: 12,
     name: "MGTT ",
-    img: "https://img.freepik.com/free-photo/coronavirus-sample-procedure_23-2148709150.jpg?",
+    img: Medical_5,
     list: "Modified Glucose Tolerance Test: FBS, 2HR Post Prandial",
     whatsapp:
       "https://wa.me/" +
