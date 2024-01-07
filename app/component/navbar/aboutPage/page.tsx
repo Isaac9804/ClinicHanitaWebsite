@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar1 from "../Navbar1";
 import GroupPicture from "@/public/KlinikGroup.png";
-import Hanita from "@/public/Dr hanita .png";
+import Hanita from "@/public/Dr hanita 001.png";
 
 import { BsLinkedin, BsFacebook } from "react-icons/bs";
 import { HiMiniInformationCircle } from "react-icons/hi2";
